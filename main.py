@@ -18,7 +18,7 @@ def welcome(message):
 def send_message(message):
     text = message.text.lower()
     if text == 'тренировка':
-        bot.send_message(message.from_user.id,'сейчас мы начнем тренировать слова, имеющиеся в вашем словаре')
+        bot.send_message(message.from_user.id,'Сейчас мы начнем тренировать слова, имеющиеся в вашем словаре')
 
         copy_dict = dictionary.copy()
         rand_tuple = list(dictionary.items())[randint(0, len(dictionary) - 1)]
@@ -28,13 +28,13 @@ def send_message(message):
         bot.send_message(message.from_user.id, 'Введите перевод ' + rand[0])
         bot.register_next_step_handler(message, exercise, copy_dict, rand[1])
     elif text == 'добавить слово':
-        bot.send_message(message.from_user.id, 'введите слово и его перевод в формате: "link ссылка"')
+        bot.send_message(message.from_user.id, 'Введите слово и его перевод в формате: "link ссылка"')
         bot.register_next_step_handler(message, get_pair_words)
     elif text == 'удалить слово':
         bot.send_message(message.from_user.id, 'Введите слово, которое хотите удалить')
         bot.register_next_step_handler(message, drop_world) # вызов другой функции на ввод данных
     elif text == "словарь":
-        bot.send_message(message.from_user.id, 'полный словарь ниже')
+        bot.send_message(message.from_user.id, 'Полный словарь ниже')
         show_dictionary(message)
     else:
         bot.send_message(message.from_user.id, 'Я вас не понял')
@@ -43,7 +43,7 @@ def send_message(message):
 def get_pair_words(message):# добавление в словарь
     pair = message.text.split()
     if len(pair) == 2 and ((pair[0] != 'Добавить' and pair[1] != 'слово') or (pair[0] != 'Удалить' and pair[1] != 'слово')):
-        dictionary[pair[0]] = pair[1]
+        dictionary[pair[0]] = pair[1:]
         bot.send_message(message.from_user.id, 'Слово добавлено')
     else:
         bot.send_message(message.from_user.id, 'Формат ввода должен быть как в примере:"link ссылка"')
