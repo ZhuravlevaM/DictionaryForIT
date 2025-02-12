@@ -122,7 +122,7 @@ def select_set(message):# вывод подборки по выбранному 
 def select_action(message, number_set):#обработка работы кнопок добавить в подборку, изменить слово, изменить назваие, удалить подборку, удалить слова, назад
     text = message.text.lower()
     if text == 'добавить в подборку':
-        bot.send_message(message.from_user.id, 'Введите новые слова в формате: "link - ссылка"', reply_markup=back_keyboard)
+        bot.send_message(message.from_user.id, 'Введите новые слова в формате: "link - ссылка; ссылочка"', reply_markup=back_keyboard)
         bot.register_next_step_handler(message, add_pair_words, number_set)
     elif text == 'изменить слово':
         if len(database[message.from_user.id][number_set].get_words()) == 0:
@@ -156,7 +156,8 @@ def select_action(message, number_set):#обработка работы кноп
         bot.register_next_step_handler(message, select_action, number_set)
 
 def add_pair_words(message, number_set):#функция получения сообщения для добавить в подборки
-    words = message.text.lower()
+    words = message.text.lower().replace(' ', ' ')#при добавлении в подбоорку replace работает
+
     if words == 'назад':
         #bot.send_message(message.from_user.id, 'Выберите действие', reply_markup=sets_keyboard)
         #bot.register_next_step_handler(message, select_action, number_set)
@@ -170,21 +171,23 @@ def add_pair_words(message, number_set):#функция получения со�
     not_correct = []
     for line in words_split_line:
         words_split = line.split(' - ')
+        words_split_transcript = words_split[1].split('; ')
         if len(words_split) == 2:
-            database[message.from_user.id][number_set].add(words_split[0], words_split[1])
+            print(database[message.from_user.id][number_set])
+            database[message.from_user.id][number_set].add(words_split[0], words_split_transcript)
             save_data(message.from_user.id)
         else:
             answer = 'NO'
             not_correct.append(line)
     if answer == 'YES':
         bot.send_message(message.from_user.id, 'Слова добавлены')
-        bot.send_message(message.from_user.id, 'Выберите действие')
+        bot.send_message(message.from_user.id, 'Выберите действие', reply_markup=sets_keyboard)
         bot.register_next_step_handler(message, select_action, number_set)
     elif answer == 'NO':
         bot.send_message(message.from_user.id, 'Слова добавлены, за исключением: ')
         bot.send_message(message.from_user.id, '\n'.join(not_correct), reply_markup=main_keyboard)
 def change_pair_words(message, number_set):#функция изменить слово
-    words = message.text.lower()
+    words = message.text.lower().replace(' ', ' ')
     words_split = words.split(' - ')
     if words == 'назад':
         bot.send_message(message.from_user.id, 'Введите номер подборки', reply_markup=back_keyboard)
@@ -219,7 +222,7 @@ def change_pair_words(message, number_set):#функция изменить сл
 
 
 def change_name_set(message, number_set):# смена имени подборки
-    name = message.text
+    name = message.text.replace(' ', ' ')
 
     if name == 'Назад':
         bot.send_message(message.from_user.id, 'Выберите действие', reply_markup=sets_keyboard)
@@ -269,13 +272,25 @@ def change_name_set(message, number_set):# смена имени подборк�
 
 def exercise(message, copy_dict, right_answer): #тренировка
     check_answer = message.text.lower()
-    if check_answer in right_answer:
-        bot.send_message(message.from_user.id, 'Правильный ответ!')
+    print('right_answer', type(right_answer),'check_answer', type(check_answer))
+    if type(right_answer) == str:
+        if check_answer == right_answer:
+            bot.send_message(message.from_user.id, 'Правильный ответ!')
+        else:
+            bot.send_message(message.from_user.id, 'В этот раз не повезло. Неправильный ответ!')
+            bot.send_message(message.from_user.id, right_answer)
+    elif type(right_answer) == list:
+        if check_answer in right_answer:
+            bot.send_message(message.from_user.id, 'Правильный ответ')
+        else:
+            bot.send_message(message.from_user.id, 'В этот раз не повезло. Неправильный ответ!')
+            bot.send_message(message.from_user.id, right_answer)
     elif check_answer == 'назад':
         bot.send_message(message.from_user.id, 'Вы вернулись в главное меню', reply_markup=main_keyboard)
         return
     else:
         bot.send_message(message.from_user.id, 'В этот раз не повезло. Неправильный ответ!')
+        bot.send_message(message.from_user.id, right_answer)
     print(copy_dict, 'copy dict exercise')
     if len(copy_dict) == 0:
         bot.send_message(message.from_user.id, 'Тренирвока окончена', reply_markup=main_keyboard)
@@ -287,7 +302,7 @@ def exercise(message, copy_dict, right_answer): #тренировка
         print(rand)
         if isinstance(rand[0], list):
             rand[0] = ', '.join(rand[0])
-        bot.send_message(message.from_user.id, 'Введите перевод ' + rand[0])
+        bot.send_message(message.from_user.id, 'Введите перевод - ' + rand[0])
         bot.register_next_step_handler(message, exercise, copy_dict, rand[1])
 
 
@@ -306,9 +321,8 @@ def delete_set(message, number_set):#удалить подборку,в кото
         bot.register_next_step_handler(message, select_action, number_set)
 
 
-
 def create_new_set(message):#создание новой подборки
-    text = message.text
+    text = message.text.replace(' ', ' ')
     if len(text) > 0 and text != 'Назад':
         new_pair_words = PairWords(text)
         database[message.from_user.id].append(new_pair_words)
@@ -353,7 +367,7 @@ def select_set_for_training(message):#выбор подборки для тре�
             print(rand)
             if isinstance(rand[0], list):
                 rand[0] = ', '.join(rand[0])
-            bot.send_message(message.from_user.id, 'Введите перевод ' + rand[0])
+            bot.send_message(message.from_user.id, 'Введите перевод - ' + rand[0])
             bot.register_next_step_handler(message, exercise, copy_dict, rand[1])
 
     elif number_set == 'назад':
