@@ -54,33 +54,36 @@ def welcome(message):
 
 @bot.message_handler(content_types=['text'])
 def send_message(message):#обработка кнопок главного меню тренировка, подборки, создать подборку
-    text = message.text.lower()
-    if text == 'тренировка':
-        if len(database[message.from_user.id]) > 0:#был set_pair_words
-            bot.send_message(message.from_user.id, set_selection(message.from_user.id))
-            bot.send_message(message.from_user.id, 'Введите номер подборки', reply_markup=back_keyboard)
-            bot.register_next_step_handler(message, select_set_for_training)
-        else:
-            bot.send_message(message.from_user.id, 'Список подборок пока пуст, создайте свою первую подборку')
-        #print(database)
-    elif text == 'подборки':
-        #print(database)
-        if len(database[message.from_user.id]) > 0:#был set_pair_words
-            bot.send_message(message.from_user.id, set_selection(message.from_user.id))
-            bot.send_message(message.from_user.id, 'Введите номер подборки', reply_markup=back_keyboard)
-            bot.register_next_step_handler(message, select_set)
-        else:
-            bot.send_message(message.from_user.id, 'Список подборок пока пуст, создайте свою первую подборку')
-        #print(database)
-#def make_new_set():#создать новую подборку
+    try:
+        text = message.text.lower()
+        if text == 'тренировка':
+            if len(database[message.from_user.id]) > 0:#был set_pair_words
+                bot.send_message(message.from_user.id, set_selection(message.from_user.id))
+                bot.send_message(message.from_user.id, 'Введите номер подборки', reply_markup=back_keyboard)
+                bot.register_next_step_handler(message, select_set_for_training)
+            else:
+                bot.send_message(message.from_user.id, 'Список подборок пока пуст, создайте свою первую подборку')
+            #print(database)
+        elif text == 'подборки':
+            #print(database)
+            if len(database[message.from_user.id]) > 0:#был set_pair_words
+                bot.send_message(message.from_user.id, set_selection(message.from_user.id))
+                bot.send_message(message.from_user.id, 'Введите номер подборки', reply_markup=back_keyboard)
+                bot.register_next_step_handler(message, select_set)
+            else:
+                bot.send_message(message.from_user.id, 'Список подборок пока пуст, создайте свою первую подборку')
+            #print(database)
+    #def make_new_set():#создать новую подборку
 
-    elif text == 'создать подборку':
-        bot.send_message(message.from_user.id, 'Введите название подборки', reply_markup=back_keyboard)
-        bot.register_next_step_handler(message, create_new_set)
-    elif text == 'faq':
-        bot.send_message(message.from_user.id, 'Если есть вопросы или пожелания можете связаться с администратором @BatSkipper' , reply_markup=main_keyboard)
-    elif text == 'database':
-        print(database)
+        elif text == 'создать подборку':
+            bot.send_message(message.from_user.id, 'Введите название подборки', reply_markup=back_keyboard)
+            bot.register_next_step_handler(message, create_new_set)
+        elif text == 'faq':
+            bot.send_message(message.from_user.id, 'Если есть вопросы или пожелания можете связаться с администратором @BatSkipper' , reply_markup=main_keyboard)
+        elif text == 'database':
+            print(database)
+    except Exception as e:
+        print('Ошибка: ', e)
 
 def set_selection(user_id):#вывод списка подборок(в скобках было пусто)
     count = 1
@@ -388,3 +391,4 @@ def save_data(user_id):#
 
 
 bot.polling(none_stop=True)
+#secret amvera 74PnHfyy5E
