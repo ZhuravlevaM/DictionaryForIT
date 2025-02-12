@@ -13,9 +13,9 @@ class PairWords:
 
     def add(self, part1, part2):
         if part1 in self.words:
-            self.words[part1].append(part2)
+            self.words[part1].extend(part2)
         else:
-            self.words[part1] = [part2]
+            self.words[part1] = part2
 
     def delete(self, key):
         if key in self.words:
