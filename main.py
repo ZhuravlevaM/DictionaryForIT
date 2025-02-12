@@ -83,7 +83,7 @@ def send_message(message):#обработка кнопок главного ме
         elif text == 'database':
             print(database)
     except Exception as e:
-        print('Ошибка: ', e)#
+        print('Ошибка: ', e)##
 
 def set_selection(user_id):#вывод списка подборок(в скобках было пусто)
     count = 1
