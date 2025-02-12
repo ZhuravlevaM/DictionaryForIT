@@ -332,6 +332,8 @@ def create_new_set(message):#создание новой подборки
         bot.send_message(message.from_user.id, 'Добавлено успешно', reply_markup=sets_keyboard)
         bot.register_next_step_handler(message, select_action, len(database[message.from_user.id]) - 1)#номер подборки индекс(длина-1) , был set_pair_words
         save_data(message.from_user.id)
+    elif text == 'назад':
+        pass
     else:
         bot.send_message(message.from_user.id, 'Название не корректно, вы вернулить в главное меню', reply_markup=main_keyboard)
     print(database)
@@ -343,6 +345,8 @@ def del_word(message, number_set):#удаление слов из подборк
         save_data(message.from_user.id)
         bot.send_message(message.from_user.id, 'Слово удалено', reply_markup=sets_keyboard)
         bot.register_next_step_handler(message, select_action, number_set)
+    elif word == 'назад':
+        pass
     else:
         bot.send_message(message.from_user.id, 'Слово не найдено')
         bot.register_next_step_handler(message, select_action, number_set)
