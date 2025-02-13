@@ -123,6 +123,7 @@ def select_set(message):# вывод подборки по выбранному 
         bot.send_message(message.from_user.id, 'Введено не коректное значение', reply_markup=main_keyboard)
 
 def select_action(message, number_set):#обработка работы кнопок добавить в подборку, изменить слово, изменить назваие, удалить подборку, удалить слова, назад
+    #raise Exception('Проверка работы try exept')
     text = message.text.lower()
     if text == 'добавить в подборку':
         bot.send_message(message.from_user.id, 'Введите новые слова в формате: "link - ссылка; ссылочка"', reply_markup=back_keyboard)
@@ -328,6 +329,7 @@ def create_new_set(message):#создание новой подборки
     text = message.text.replace(' ', ' ')
     if text.lower() == 'назад':
         bot.send_message(message.from_user.id, 'Вы вернулись в главное меню', reply_markup=main_keyboard)
+        bot.register_next_step_handler(message, select_action)
     elif len(text) > 0 and text != 'Назад':
         new_pair_words = PairWords(text)
         database[message.from_user.id].append(new_pair_words)
@@ -339,14 +341,15 @@ def create_new_set(message):#создание новой подборки
     print(database)
 
 def del_word(message, number_set):#удаление слов из подборки
-    word = message.text
+    word = message.text.lower()
     result = database[message.from_user.id][number_set].delete(word)#set_pair_words был
-    if result:
+    if word == 'назад':
+        bot.send_message(message.from_user.id,'Вы вернулись в главное меню', reply_markup=main_keyboard)
+        bot.register_next_step_handler(message, select_action, number_set)
+    elif result:
         save_data(message.from_user.id)
         bot.send_message(message.from_user.id, 'Слово удалено', reply_markup=sets_keyboard)
         bot.register_next_step_handler(message, select_action, number_set)
-    elif word == 'назад':
-        pass
     else:
         bot.send_message(message.from_user.id, 'Слово не найдено')
         bot.register_next_step_handler(message, select_action, number_set)
