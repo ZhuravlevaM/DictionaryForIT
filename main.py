@@ -277,6 +277,7 @@ def change_name_set(message, number_set):# смена имени подборк�
 def exercise(message, copy_dict, right_answer): #тренировка
     check_answer = message.text.lower()
     print('right_answer', type(right_answer), 'check_answer', type(check_answer))
+    print('right_answer', right_answer, 'check_answer', check_answer)
     if check_answer == 'назад':
         bot.send_message(message.from_user.id, 'Вы вернулись в главное меню', reply_markup=main_keyboard)
         return
