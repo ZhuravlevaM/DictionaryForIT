@@ -1,0 +1,2750 @@
+{
+    "319826849": [
+        {
+            "name": "IT",
+            "words": {
+                "компилировать": [
+                    "compile"
+                ],
+                "перезагружать": [
+                    "reboots",
+                    "reboot"
+                ],
+                "база данных": [
+                    "database"
+                ],
+                "компилятор": [
+                    "compiler"
+                ],
+                "отладчик": [
+                    "debugger"
+                ],
+                "приложение для настольного компьютера": [
+                    "desktop application/app"
+                ],
+                "драйвер устройства": [
+                    "device driver"
+                ],
+                "графический пользовательский интерфейс": [
+                    "graphical user interface (gui)"
+                ],
+                "ядро (например, операционной системы)": [
+                    "kernel"
+                ],
+                "мобильное приложение": [
+                    "mobile application/app"
+                ],
+                "плагин, расширение, дополнительный программный модуль": [
+                    "plug-in (plugin)"
+                ],
+                "язык программирования": [
+                    "programming language"
+                ],
+                "запрос": [
+                    "query"
+                ],
+                "полоса прокрутки": [
+                    "scroll bar"
+                ],
+                "снимок состояния системы": [
+                    "snapshot"
+                ],
+                "электронная таблица": [
+                    "spreadsheet"
+                ],
+                "строка состояния": [
+                    "status bar"
+                ],
+                "шаблон": [
+                    "template"
+                ],
+                "система контроля версий": [
+                    "version control system (vcs)"
+                ],
+                "веб-приложение": [
+                    "web application"
+                ],
+                "текстовый процессор": [
+                    "word processor"
+                ],
+                "текстовый редактор": [
+                    "text editor"
+                ],
+                "утилита (служебная программа)": [
+                    "utility"
+                ],
+                "приемочное тестирование": [
+                    "acceptance testing"
+                ],
+                "алгоритм": [
+                    "algorithm"
+                ],
+                "массив": [
+                    "array"
+                ],
+                "кодировка": [
+                    "encoding"
+                ],
+                "корпоративное приложение": [
+                    "enterprise application"
+                ],
+                "исполняемый файл": [
+                    "executable (file)"
+                ],
+                "архивировать, архив": [
+                    "archive"
+                ],
+                "назначать": [
+                    "assign",
+                    "schedule"
+                ],
+                "авторизовывать": [
+                    "authorize"
+                ],
+                "резервировать": [
+                    "backup"
+                ],
+                "строить": [
+                    "build"
+                ],
+                "вычислять": [
+                    "calculate"
+                ],
+                "захватывать": [
+                    "capture"
+                ],
+                "проверять": [
+                    "check",
+                    "review",
+                    "validate"
+                ],
+                "чистить": [
+                    "clean"
+                ],
+                "сжимать": [
+                    "compress"
+                ],
+                "вести, проводить": [
+                    "conduct"
+                ],
+                "настроить": [
+                    "configure"
+                ],
+                "подключить": [
+                    "connect"
+                ],
+                "подключиться": [
+                    "connect"
+                ],
+                "создавать": [
+                    "create"
+                ],
+                "отлаживать": [
+                    "debug"
+                ],
+                "разжимать": [
+                    "decompress"
+                ],
+                "расшифровать": [
+                    "decrypt"
+                ],
+                "декодировать": [
+                    "decrypt"
+                ],
+                "удалять": [
+                    "delete",
+                    "uninstall"
+                ],
+                "удалить": [
+                    "delete",
+                    "remove",
+                    "uninstall"
+                ],
+                "развертывать": [
+                    "deploy"
+                ],
+                "обнаруживать": [
+                    "detect"
+                ],
+                "развивать": [
+                    "develop"
+                ],
+                "совершенствовать": [
+                    "develop"
+                ],
+                "разрабатывать": [
+                    "develop"
+                ],
+                "отключать": [
+                    "disable",
+                    "disconnect"
+                ],
+                "деактивировать": [
+                    "disable"
+                ],
+                "отключиться": [
+                    "disconnect"
+                ],
+                "отображать": [
+                    "display"
+                ],
+                "скачивать": [
+                    "download"
+                ],
+                "загружать (из сети)": [
+                    "download"
+                ],
+                "редактировать": [
+                    "edit"
+                ],
+                "включать": [
+                    "enable"
+                ],
+                "запускать в работу": [
+                    "enable"
+                ],
+                "активировать": [
+                    "enable"
+                ],
+                "шифровать": [
+                    "encrypt"
+                ],
+                "кодировать": [
+                    "encrypt"
+                ],
+                "учреждать": [
+                    "establish"
+                ],
+                "устанавливать": [
+                    "establish",
+                    "install",
+                    "set up"
+                ],
+                "оценивать": [
+                    "evaluate"
+                ],
+                "выполнять": [
+                    "execute",
+                    "perform"
+                ],
+                "извлекать": [
+                    "extract",
+                    "retrieve"
+                ],
+                "облегчать": [
+                    "facilitate"
+                ],
+                "взламывать": [
+                    "hack"
+                ],
+                "распознавать": [
+                    "identify"
+                ],
+                "внедрять": [
+                    "implement"
+                ],
+                "реализовать": [
+                    "implement"
+                ],
+                "запускать": [
+                    "initiate",
+                    "launch"
+                ],
+                "приводить в действие": [
+                    "initiate"
+                ],
+                "установить": [
+                    "install"
+                ],
+                "взаимодействовать": [
+                    "interface"
+                ],
+                "исследовать": [
+                    "investigate"
+                ],
+                "загружать": [
+                    "load",
+                    "upload"
+                ],
+                "находить": [
+                    "locate"
+                ],
+                "определять место": [
+                    "locate"
+                ],
+                "поддерживать": [
+                    "maintain"
+                ],
+                "управлять": [
+                    "manage"
+                ],
+                "измерять": [
+                    "measure"
+                ],
+                "объединять": [
+                    "merge"
+                ],
+                "перемещать": [
+                    "move",
+                    "remove"
+                ],
+                "переопределять": [
+                    "override"
+                ],
+                "отменять": [
+                    "override"
+                ],
+                "надзирать": [
+                    "oversee"
+                ],
+                "контролировать": [
+                    "oversee"
+                ],
+                "перезаписывать": [
+                    "overwrite"
+                ],
+                "разбирать": [
+                    "parse"
+                ],
+                "проводить анализ": [
+                    "parse"
+                ],
+                "совершать": [
+                    "perform"
+                ],
+                "печатать": [
+                    "print"
+                ],
+                "обеспечивать": [
+                    "provide"
+                ],
+                "перезагрузка": [
+                    "reboot"
+                ],
+                "перенастраивать": [
+                    "reconfigure"
+                ],
+                "восстанавливать": [
+                    "recover",
+                    "repair",
+                    "restore"
+                ],
+                "перенаправлять": [
+                    "redirect"
+                ],
+                "обновлять": [
+                    "refresh",
+                    "update"
+                ],
+                "убирать": [
+                    "remove"
+                ],
+                "переименовывать": [
+                    "rename"
+                ],
+                "ремонтировать": [
+                    "repair"
+                ],
+                "заменять": [
+                    "replace"
+                ],
+                "описывать": [
+                    "report"
+                ],
+                "отчитываться": [
+                    "report"
+                ],
+                "запрашивать": [
+                    "request"
+                ],
+                "сбрасывать": [
+                    "reset"
+                ],
+                "изменять размер": [
+                    "resize"
+                ],
+                "решать": [
+                    "resolve"
+                ],
+                "разрешать(сомнения)": [
+                    "resolve"
+                ],
+                "рецензировать": [
+                    "review"
+                ],
+                "сохранять": [
+                    "save"
+                ],
+                "сохранить": [
+                    "save"
+                ],
+                "планировать": [
+                    "schedule"
+                ],
+                "искать": [
+                    "search"
+                ],
+                "защищать": [
+                    "secure"
+                ],
+                "выбирать": [
+                    "select"
+                ],
+                "отбирать": [
+                    "select"
+                ],
+                "отправлять": [
+                    "send"
+                ],
+                "сортировать": [
+                    "sort"
+                ],
+                "сортировка": [
+                    "sort"
+                ],
+                "хранить": [
+                    "store"
+                ],
+                "потоково передавать": [
+                    "stream"
+                ],
+                "оптимизировать": [
+                    "streamline"
+                ],
+                "отслеживать": [
+                    "trace"
+                ],
+                "передавать": [
+                    "transfer",
+                    "transmit"
+                ],
+                "переносить": [
+                    "transfer"
+                ],
+                "устранять неполадки": [
+                    "troubleshoot"
+                ],
+                "открыть": [
+                    "unlock"
+                ],
+                "разъединять": [
+                    "unmerge"
+                ],
+                "демонтировать": [
+                    "unmount"
+                ],
+                "распаковывать": [
+                    "unzip"
+                ],
+                "обновить": [
+                    "update"
+                ],
+                "выгружать (в сеть)": [
+                    "upload"
+                ],
+                "использовать": [
+                    "utilize"
+                ],
+                "употреблять": [
+                    "utilize"
+                ],
+                "проверять достоверность": [
+                    "verify"
+                ],
+                "верифицировать": [
+                    "verify"
+                ],
+                "проверить": [
+                    "verify"
+                ],
+                "ждать": [
+                    "wait"
+                ],
+                "писать": [
+                    "write"
+                ]
+            }
+        },
+        {
+            "name": "Путешествия",
+            "words": {
+                "билет": [
+                    "ticket",
+                    "a ticket"
+                ],
+                "поезд": [
+                    "train",
+                    "a train"
+                ],
+                "стойка регистрации": [
+                    "the check-in desk"
+                ],
+                "город": [
+                    "city"
+                ],
+                "место для самостоятельной регистрации": [
+                    "self check-in point"
+                ],
+                "пункт самостоятельной регистрации": [
+                    "self check-in point"
+                ],
+                "паспортный контроль": [
+                    "passport control"
+                ],
+                "таможня": [
+                    "customs",
+                    "custom"
+                ],
+                "иммиграционный контроль": [
+                    "immigration enquiries"
+                ],
+                "зона прилета": [
+                    "arrivals hall"
+                ],
+                "зона вылета": [
+                    "departures hall"
+                ],
+                "район": [
+                    "district"
+                ],
+                "внутренний рейс": [
+                    "a domestic flight"
+                ],
+                "международный рейс": [
+                    "an international flight"
+                ],
+                "зона выдачи багажа": [
+                    "baggage reclaim"
+                ],
+                "зона сдачи багажа": [
+                    "baggage drop-off"
+                ],
+                "бюро находок": [
+                    "lost and found",
+                    "lost property (lost & found)"
+                ],
+                "справочная служба аэропорта": [
+                    "airline enquiries"
+                ],
+                "посадочный талон": [
+                    "a boarding pass",
+                    "boarding pass"
+                ],
+                "экипаж": [
+                    "cabin crew"
+                ],
+                "капитан": [
+                    "a captain"
+                ],
+                "бортпроводник": [
+                    "a flight attendant",
+                    "flight attendant"
+                ],
+                "пассажир": [
+                    "a passenger",
+                    "passenger"
+                ],
+                "место у прохода": [
+                    "an aisle seat",
+                    "aisle seat"
+                ],
+                "место у окна": [
+                    "a window seat",
+                    "window seat"
+                ],
+                "проход": [
+                    "an aisle"
+                ],
+                "верхняя багажная полка": [
+                    "an overhead locker"
+                ],
+                "ручная кладь": [
+                    "hand luggage",
+                    "carry-on luggage"
+                ],
+                "карман в кресле": [
+                    "a seat pocket"
+                ],
+                "спасательный жилет": [
+                    "a life jacket",
+                    "life jacket"
+                ],
+                "аварийный выход": [
+                    "an emergency exit",
+                    "emergency exit"
+                ],
+                "объявление": [
+                    "an announcement"
+                ],
+                "инструкция по технике безопасности": [
+                    "safety instructions"
+                ],
+                "инструкция по безопасности": [
+                    "safety instructions"
+                ],
+                "уборная": [
+                    "a lavatory"
+                ],
+                "еда": [
+                    "meal"
+                ],
+                "поднос": [
+                    "a tray"
+                ],
+                "пожалуйста, разместите вашу ручную кладь на верхней багажной полке или под сиденьем перед собой": [
+                    "please stow your hand luggage in the overhead locker or under the seat in front of you"
+                ],
+                "выключите все электронные устройства": [
+                    "turn off all electronic devices"
+                ],
+                "пожалуйста, переведите переносные электронные устройства, включая любые мобильные телефоны, в режим полета": [
+                    "please set your portable electronic devices, including any mobile phones, to flight mode"
+                ],
+                "курение на борту запрещено": [
+                    "smoking is prohibited on board"
+                ],
+                "пристегните ваш ремень": [
+                    "fasten your seat belt"
+                ],
+                "убедитесь, что ваш ремень безопасности пристегнут": [
+                    "make sure your seat belt is fastened"
+                ],
+                "ваш спасательный жилет находится под сидением": [
+                    "your lifejacket is under your seat"
+                ],
+                "ваша кислородная маска выпадет автоматически": [
+                    "your oxygen mask will drop down from above automatically"
+                ],
+                "запасные выходы находятся здесь, там и там": [
+                    "our emergency exits are located here, there and there"
+                ],
+                "пожалуйста, поднимите спинки кресел в вертикальное положение": [
+                    "please, put your chairs into an upright position"
+                ],
+                "пожалуйста, оставайтесь на местах во время взлета, посадки и наземного передвижения": [
+                    "please, remain seated while take-off, landing and taxi"
+                ],
+                "городской трансфер": [
+                    "city transfer"
+                ],
+                "метро": [
+                    "a underground",
+                    "metro",
+                    "underground"
+                ],
+                "железнодорожный вокзал / железнодорожная станция": [
+                    "a railway/train station"
+                ],
+                "электричка": [
+                    "a commuter train"
+                ],
+                "аэроэкспресс": [
+                    "an airport shuttle train"
+                ],
+                "автобус": [
+                    "a bus"
+                ],
+                "автобусный трансфер": [
+                    "a shuttle bus"
+                ],
+                "стоянка такси": [
+                    "a taxi stand (ame)"
+                ],
+                "прошу прощения, вы не могли бы подсказать, где находится автовокзал/железнодорожный вокзал": [
+                    "excuse me, could you tell me where the bus/train station is?"
+                ],
+                "прошу прощения, где я могу найти автобус до центра города?": [
+                    "excuse me, where can i find a bus to the city center?"
+                ],
+                "извините, где находится стоянка такси?": [
+                    "sorry, where is a taxi rank?"
+                ],
+                "вы не могли бы помочь мне вызвать такси?": [
+                    "could you please help me call a taxi?"
+                ],
+                "этот автобус/поезд идет в центр?": [
+                    "does this bus/train go to the city center?"
+                ],
+                "как часто ходит этот автобус/поезд?": [
+                    "how often does this bus/train run?"
+                ],
+                "когда отправляется следующий/последний автобус?": [
+                    "when does the next/last bus leave?"
+                ],
+                "где находится касса?": [
+                    "where is the ticket office?"
+                ],
+                "где находятся автоматы с билетами?": [
+                    "where are the ticket machines?"
+                ],
+                "где находятся билетные автоматы?": [
+                    "where are the ticket machines?"
+                ],
+                "сколько стоит проезд?": [
+                    "how much is the fare?"
+                ],
+                "как долго добираться до центра города?": [
+                    "how long does it take to get to the city center?"
+                ],
+                "здравствуйте, могу ли я забронировать номер?": [
+                    "hello, can i reserve a room, please?"
+                ],
+                "могу ли я забронировать номер?": [
+                    "can i book a room?"
+                ],
+                "какие номера свободны?": [
+                    "what types of rooms are available?"
+                ],
+                "я уезжаю через 5 дней": [
+                    "i’m leaving in 5 days"
+                ],
+                "я бы хотел зарезервировать": [
+                    "i would like to book"
+                ],
+                "одноместный номер": [
+                    "a single room"
+                ],
+                "комната на одного человека": [
+                    "a single room"
+                ],
+                "двухместный номер": [
+                    "a double room"
+                ],
+                "комната на двоих с общей кроватью": [
+                    "a double room"
+                ],
+                "трехместный номер": [
+                    "a triple room"
+                ],
+                "номер с двумя кроватями": [
+                    "a twin-bedded room"
+                ],
+                "номер-люкс": [
+                    "a suite"
+                ],
+                "президентский люкс": [
+                    "a presidential suite"
+                ],
+                "какова стоимость": [
+                    "what’s the price for"
+                ],
+                "одноместного номера?": [
+                    "a single room?"
+                ],
+                "двухместного номера?": [
+                    "a double room?"
+                ],
+                "трехместного номера?": [
+                    "a triple room?"
+                ],
+                "номера с двумя кроватями?": [
+                    "a twin-bedded room?"
+                ],
+                "сколько стоит номер, включая завтрак?": [
+                    "how much is for the room including breakfast?"
+                ],
+                "в номере есть?": [
+                    "does the room have?"
+                ],
+                "ванна": [
+                    "a bath"
+                ],
+                "душ": [
+                    "a shower"
+                ],
+                "доступ к интернету": [
+                    "the internet access"
+                ],
+                "телевизор": [
+                    "a tv"
+                ],
+                "телефон": [
+                    "a telephone",
+                    "telephone"
+                ],
+                "чайник": [
+                    "a tea-pot",
+                    "tea-pot"
+                ],
+                "кофейник": [
+                    "a coffee-pot"
+                ],
+                "кондиционер": [
+                    "air conditioning"
+                ],
+                "холодильник": [
+                    "a refrigerator",
+                    "a fridge",
+                    "fridge"
+                ],
+                "мини-бар": [
+                    "a mini-bar"
+                ],
+                "фен": [
+                    "a hairdryer",
+                    "hairdryer"
+                ],
+                "я бы хотел забронировать номер с видом на море/озеро": [
+                    "i’d like to book a room overviewing the sea/lake"
+                ],
+                "я бы хотел полный пансион/полупансион": [
+                    "i’d like full board/half-board"
+                ],
+                "могу ли я попросить поздний выезд?": [
+                    "may i have a late check-out?"
+                ],
+                "у вас есть парковка?": [
+                    "do you have a car park?"
+                ],
+                "в отеле есть тренажерный зал/бассейн?": [
+                    "does the hotel have a gym/swimming pool?"
+                ],
+                "у вас есть специальное меню для детей?": [
+                    "do you have a special menu for children?"
+                ],
+                "в отеле есть развлечения (услуги) для детей?": [
+                    "does the hotel have any facilities for children?"
+                ],
+                "разрешаете ли вы заселяться с домашними животными?": [
+                    "do you allow pets?"
+                ],
+                "отель обеспечивает трансфер из/до аэропорта?": [
+                    "does the hotel provide airport transfer?"
+                ],
+                "сколько стоит обслуживание и налог?": [
+                    "how much is the service charge and tax?"
+                ],
+                "есть что-то подешевле?": [
+                    "is there anything cheaper?"
+                ],
+                "какова итоговая сумма к оплате?": [
+                    "what is the total cost?"
+                ],
+                "сумма арендной платы": [
+                    "a rental"
+                ],
+                "комната на двоих с раздельными кроватями": [
+                    "a twin room"
+                ],
+                "детская кроватка": [
+                    "a crib"
+                ],
+                "бесплатная парковка": [
+                    "free parking"
+                ],
+                "удобства": [
+                    "amenities"
+                ],
+                "отопление": [
+                    "heating"
+                ],
+                "камин": [
+                    "a fireplace"
+                ],
+                "кухня": [
+                    "a kitchen",
+                    "kitchen"
+                ],
+                "посуда": [
+                    "dishes"
+                ],
+                "столовые приборы": [
+                    "cutlery"
+                ],
+                "плита": [
+                    "a stove"
+                ],
+                "духовка": [
+                    "an oven"
+                ],
+                "посудомоечная машина": [
+                    "a dishwasher"
+                ],
+                "кабельное тв": [
+                    "cable tv"
+                ],
+                "утюг": [
+                    "an iron",
+                    "iron"
+                ],
+                "постельное белье": [
+                    "bed linen"
+                ],
+                "постельное бельё": [
+                    "bed linen"
+                ],
+                "ванные принадлежности": [
+                    "toiletries"
+                ],
+                "полотенца": [
+                    "towels"
+                ],
+                "сад": [
+                    "a garden"
+                ],
+                "бассейн": [
+                    "a pool"
+                ],
+                "разрешено курить": [
+                    "smoking allowed"
+                ],
+                "можно останавливаться с животными": [
+                    "pets allowed"
+                ],
+                "время заезда": [
+                    "check-in time"
+                ],
+                "время выезда": [
+                    "check-out time"
+                ],
+                "большой вместительный автомобиль": [
+                    "a full size car"
+                ],
+                "стандартный автомобиль средних размеров": [
+                    "a standard size car"
+                ],
+                "малогабаритный автомобиль": [
+                    "a compact car"
+                ],
+                "хэтчбэк": [
+                    "a hatchback"
+                ],
+                "универсал": [
+                    "a station wagon"
+                ],
+                "седан": [
+                    "a sedan/saloon"
+                ],
+                "мини-фургон": [
+                    "a minivan"
+                ],
+                "спортивный автомобиль": [
+                    "a sports car"
+                ],
+                "машина премиум-класса": [
+                    "a premium/luxury car"
+                ],
+                "залоговый депозит": [
+                    "a security deposit"
+                ],
+                "страхование на случай столкновения включено": [
+                    "collision insurance is included"
+                ],
+                "тариф по дням/неделям/месяцам": [
+                    "daily/weekly/monthly rate"
+                ],
+                "машина с полным приводом": [
+                    "awd (all-wheel-drive) vehicle"
+                ],
+                "механическая/автоматическая коробка передач": [
+                    "an automatic (gear)"
+                ],
+                "полный бак": [
+                    "a full tank"
+                ],
+                "дизель/бензин": [
+                    "diesel/petrol (gas)"
+                ],
+                "детское автокресло": [
+                    "a child seat"
+                ],
+                "дорожные знаки": [
+                    "road signs"
+                ],
+                "светофор": [
+                    "traffic lights/signals"
+                ],
+                "камеры наблюдения за дорожным движением": [
+                    "speed cameras"
+                ],
+                "стоянка зарезервирована за определенными автомобилями": [
+                    "reserved parking"
+                ],
+                "стоянка запрещена": [
+                    "parking prohibited",
+                    "no parking"
+                ],
+                "не останавливаться": [
+                    "no stopping"
+                ],
+                "проезд закрыт / проезда нет": [
+                    "no passage"
+                ],
+                "улица с односторонним движением": [
+                    "one way street"
+                ],
+                "тупик": [
+                    "a dead end"
+                ],
+                "поломка": [
+                    "a breakdown"
+                ],
+                "спущенное колесо": [
+                    "a flat tire"
+                ],
+                "запасное колесо": [
+                    "a spare tire (ame)"
+                ],
+                "домкрат": [
+                    "a car jack"
+                ],
+                "автомастерская": [
+                    "a garage"
+                ],
+                "автомастерская на трассе": [
+                    "a motorway service station"
+                ],
+                "заправочная станция": [
+                    "a gas station (ame)"
+                ],
+                "собор": [
+                    "a cathedral",
+                    "cathedral"
+                ],
+                "площадь": [
+                    "a square",
+                    "square"
+                ],
+                "мечеть": [
+                    "a mosque"
+                ],
+                "церковь": [
+                    "a church",
+                    "church"
+                ],
+                "ратуша": [
+                    "a town hall"
+                ],
+                "замок": [
+                    "a castle",
+                    "castle"
+                ],
+                "дворец": [
+                    "a palace",
+                    "palace"
+                ],
+                "храм": [
+                    "a temple"
+                ],
+                "башня": [
+                    "a tower"
+                ],
+                "музей": [
+                    "a museum",
+                    "museum"
+                ],
+                "статуя": [
+                    "a statue"
+                ],
+                "памятник": [
+                    "a monument",
+                    "monument"
+                ],
+                "скульптура": [
+                    "a sculpture"
+                ],
+                "парк": [
+                    "a park",
+                    "park"
+                ],
+                "фонтан": [
+                    "a fountain"
+                ],
+                "художественная галерея": [
+                    "an art gallery"
+                ],
+                "балет": [
+                    "a ballet"
+                ],
+                "опера": [
+                    "an opera",
+                    "opera"
+                ],
+                "театр": [
+                    "a theatre",
+                    "theatre"
+                ],
+                "кинотеатр": [
+                    "a cinema"
+                ],
+                "цирк": [
+                    "a circus"
+                ],
+                "зоопарк": [
+                    "a zoo",
+                    "zoo"
+                ],
+                "стадион": [
+                    "a stadium"
+                ],
+                "каньон": [
+                    "a canyon"
+                ],
+                "пещера": [
+                    "a cave"
+                ],
+                "красивый": [
+                    "beautiful"
+                ],
+                "переполненный": [
+                    "crowded"
+                ],
+                "забит туристами": [
+                    "packed with tourist"
+                ],
+                "милый, чудный": [
+                    "lovely"
+                ],
+                "уникальный": [
+                    "unique"
+                ],
+                "захватывающий": [
+                    "spectacular"
+                ],
+                "красочный": [
+                    "picturesque"
+                ],
+                "выдающийся": [
+                    "remarkable"
+                ],
+                "впечатляющий": [
+                    "impressive"
+                ],
+                "очаровательный": [
+                    "charming"
+                ],
+                "вы не могли бы сказать мне, как добраться до национального музея?": [
+                    "could you tell me how to get to the national museum?"
+                ],
+                "как мне добраться до супермаркета?": [
+                    "how can i get to the supermarket?"
+                ],
+                "где находится ближайший автовокзал/метро?": [
+                    "where is the nearest bus/subway station?"
+                ],
+                "здесь поблизости есть банкомат?": [
+                    "is there an atm / cash machine near here?"
+                ],
+                "где находится ближайшая автобусная остановка?": [
+                    "where is the nearest bus stop?"
+                ],
+                "как я могу добраться до отеля hilton?": [
+                    "how can i get to hilton hotel?"
+                ],
+                "какой автобус/поезд идет до голубой мечети отсюда?": [
+                    "which bus/train goes to the blue mosque from here?"
+                ],
+                "какой лучший способ перемещаться по лондону?": [
+                    "what is the best way to get around london?"
+                ],
+                "идите прямо": [
+                    "go straight (on)",
+                    "go straight"
+                ],
+                "поверните налево": [
+                    "turn left"
+                ],
+                "на углу поверните налево": [
+                    "turn left at the corner"
+                ],
+                "сверните направо": [
+                    "turn right"
+                ],
+                "на перекрестке поверните направо": [
+                    "turn right at the crossroads/intersection"
+                ],
+                "перейдите дорогу": [
+                    "cross the street"
+                ],
+                "перейдите улицу": [
+                    "cross the street"
+                ],
+                "продолжайте (идти) вдоль bank street, пока не увидите кинотеатр": [
+                    "continue along bank street until you see the cinema"
+                ],
+                "затем поверните налево": [
+                    "then turn left"
+                ],
+                "после этого идите по/держитесь oxford street": [
+                    "after that take oxford street"
+                ],
+                "когда вы доберетесь до моста, вы увидите национальный музей": [
+                    "when you get to the bridge, you’ll see the national museum"
+                ],
+                "на углу улицы вы увидите национальный музей": [
+                    "at the corner of the street you will see the national museum"
+                ],
+                "это рядом с": [
+                    "it is next to"
+                ],
+                "кинотеатр находится рядом с парком": [
+                    "the cinema is next to the park"
+                ],
+                "это далеко/близко отсюда": [
+                    "it is far from here/near hear"
+                ],
+                "банк находится между": [
+                    "the bank is between"
+                ],
+                "железнодорожный вокзал находится между банком и театром": [
+                    "the railway station is between the bank and the theatre"
+                ],
+                "это по другую сторону/напротив": [
+                    "it is across from/opposite"
+                ],
+                "магазин, который вы ищите, находится напротив церкви": [
+                    "the shop you are looking for is across from/opposite the church"
+                ],
+                "я бронировал столик": [
+                    "i’ve booked a table"
+                ],
+                "у вас есть свободные столики? мне нужен столик на двоих": [
+                    "do you have any free tables? i need a table for two"
+                ],
+                "я могу сесть здесь?": [
+                    "may i sit here?"
+                ],
+                "можно мне столик у окна?": [
+                    "can i get a table by the window?"
+                ],
+                "можно нам еще один стул?": [
+                    "could we get an extra chair?"
+                ],
+                "можно мне меню, пожалуйста?": [
+                    "can i have the menu, please?"
+                ],
+                "где я могу найти список напитков?": [
+                    "where can i see a list of drinks?"
+                ],
+                "какое блюдо вы могли бы посоветовать?": [
+                    "what dish can you recommend?"
+                ],
+                "что вы порекомендуете?": [
+                    "what do you recommend?"
+                ],
+                "мы готовы сделать заказ": [
+                    "we are ready to order"
+                ],
+                "я еще не готов": [
+                    "i am not ready yet"
+                ],
+                "я бы хотел чашечку кофе": [
+                    "i would like a cup of coffee"
+                ],
+                "стакан воды, пожалуйста": [
+                    "a glass of water, please"
+                ],
+                "я бы хотел комплексный обед": [
+                    "i would like the set lunch"
+                ],
+                "можно мне стейк, пожалуйста?": [
+                    "can i have a steak, please?"
+                ],
+                "какие есть гарниры?": [
+                    "what are the side dishes?"
+                ],
+                "что это за блюдо?": [
+                    "what is this dish?"
+                ],
+                "у меня аллергия на орехи. это блюдо содержит орехи?": [
+                    "i am allergic to nuts. does this dish contain nuts?"
+                ],
+                "я вегетарианец. у вас есть вегетарианская еда?": [
+                    "i am a vegetarian. do you have any vegetarian food?"
+                ],
+                "можно мне этот бургер без лука?": [
+                    "can i get this burger without onion?"
+                ],
+                "я могу изменить заказ? я бы хотел салат вместо мяса": [
+                    "could i change my order? i would like a salad instead of meat"
+                ],
+                "я спешу. сколько мне придется ждать заказ?": [
+                    "i am in a hurry. how long will i have to wait for the order?"
+                ],
+                "могу ли я получить счет?": [
+                    "can i have the bill/check, please?"
+                ],
+                "можно заплатить картой/наличными?": [
+                    "could i pay by credit card/in cash?"
+                ],
+                "не могли бы вы проверить мой счет, пожалуйста? кажется, в нем ошибка.": [
+                    "could you check the bill for me, please? it does not seem right."
+                ],
+                "обслуживание включено в счет?": [
+                    "is service included?"
+                ],
+                "я плачу за всех": [
+                    "i am paying for everybody"
+                ],
+                "можем мы заплатить раздельно?": [
+                    "can we pay separately?"
+                ],
+                "сдачи не надо": [
+                    "keep the change"
+                ],
+                "оставьте сдачу себе": [
+                    "keep the change"
+                ],
+                "где находится ближайший сувенирный магазин/торговый центр/рынок?": [
+                    "where is the nearest souvenir shop/shopping mall/market?"
+                ],
+                "прошу прощения, вы можете мне помочь?": [
+                    "sorry, can you help me, please?"
+                ],
+                "сколько это стоит?": [
+                    "how much does it cost?"
+                ],
+                "у вас есть специальное предложение?": [
+                    "do you have a special offer?"
+                ],
+                "а скидки есть?": [
+                    "are there any discounts?"
+                ],
+                "хорошо, я беру/покупаю": [
+                    "okay, i’ll take it"
+                ],
+                "где я могу рассчитаться за это?": [
+                    "where can i pay for it?"
+                ],
+                "можете выдать мне чек?": [
+                    "can you give me a receipt?"
+                ],
+                "где продавец-консультант?": [
+                    "where is a shop assistant?"
+                ],
+                "я не вижу ценник": [
+                    "i don’t see a price tag"
+                ],
+                "я ищу рубашку/платье/футболку": [
+                    "i am looking for a shirt/dress/t-shirt"
+                ],
+                "этот костюм есть в белом цвете?": [
+                    "do you have this suit in white?"
+                ],
+                "я бы хотел примерить это": [
+                    "i would like to try it on"
+                ],
+                "извините, где находится примерочная?": [
+                    "excuse me, where is the fitting room/changing room?"
+                ],
+                "где я могу примерить это пальто?": [
+                    "where can i try this coat on?"
+                ],
+                "у вас есть этот пиджак/куртка в размере s/m/l?": [
+                    "do you have this jacket in s/m/l size?"
+                ],
+                "вы не могли бы дать мне размер побольше/поменьше?": [
+                    "can you give me a bigger/smaller size?"
+                ],
+                "мне нужно вернуть это платье в магазин": [
+                    "i need to take this dress back to the shop"
+                ],
+                "я бы хотел получить возврат": [
+                    "i would like to get a refund"
+                ],
+                "я бы хотел поменять это. я купил неправильный размер.": [
+                    "i would like to change it. i have bought the wrong size."
+                ],
+                "ссылка": [
+                    "link"
+                ],
+                "рейс": [
+                    "flight"
+                ],
+                "отправление": [
+                    "departure"
+                ],
+                "прибытие": [
+                    "arrival",
+                    "arrivals"
+                ],
+                "стойка регистрация": [
+                    "check-in desk"
+                ],
+                "трансфер": [
+                    "transfer"
+                ],
+                "место получение багажа": [
+                    "baggage claim"
+                ],
+                "выдача багажа": [
+                    "baggage claim"
+                ],
+                "место сдачи багажа": [
+                    "baggage drop off"
+                ],
+                "туалет": [
+                    "lavatory",
+                    "toilet"
+                ],
+                "занято": [
+                    "closed"
+                ],
+                "куда вы летите?": [
+                    "where are you flying to?"
+                ],
+                "какая у вас цель поездки?": [
+                    "what is your purpose for the trip?"
+                ],
+                "могу я посмотреть вашу ручную кладь, пожалуйста": [
+                    "could i see your hand baggage, please"
+                ],
+                "у вас есть обратный билет?": [
+                    "do you have a return ticket?"
+                ],
+                "где вы остановитесь?": [
+                    "where do you stay?"
+                ],
+                "центр города": [
+                    "city center"
+                ],
+                "улица": [
+                    "street"
+                ],
+                "река": [
+                    "river"
+                ],
+                "мост": [
+                    "bridge"
+                ],
+                "автобусная остановка": [
+                    "bus station",
+                    "bus stop"
+                ],
+                "такси": [
+                    "taxi",
+                    "taxis"
+                ],
+                "вы не могли бы мне помочь?": [
+                    "can you help me?"
+                ],
+                "где находится церковь/парк/мост?": [
+                    "where is a church/park/bridge?"
+                ],
+                "идите налево/направо": [
+                    "go to the left/right"
+                ],
+                "поверните налево/направо": [
+                    "turn left/right"
+                ],
+                "какой автобус идет до музея/театра/зоопарка?": [
+                    "which bus goes to the museum/theatre/zoo?"
+                ],
+                "здравствуйте! меня зовут иван иванов. вот мой паспорт. у меня есть бронь.": [
+                    "hello! my name is ivan ivanov. this is my passport. i have a reservation"
+                ],
+                "могу я забронировать номер?": [
+                    "can i book the room?"
+                ],
+                "я хотел бы забронировать одноместный/двухместный номер.": [
+                    "i would like to book a single/double room"
+                ],
+                "сколько стоит номер?": [
+                    "how much does a room cost?"
+                ],
+                "наличными или картой?": [
+                    "cash or card?"
+                ],
+                "в номере есть балкон?": [
+                    "does the room have a balcony?"
+                ],
+                "завтрак": [
+                    "breakfast"
+                ],
+                "обед": [
+                    "lunch"
+                ],
+                "ужин": [
+                    "dinner"
+                ],
+                "бар": [
+                    "bar"
+                ],
+                "полотенце": [
+                    "towel"
+                ],
+                "парковка": [
+                    "parking"
+                ],
+                "стоянка": [
+                    "parking"
+                ],
+                "подушка": [
+                    "pillow"
+                ],
+                "могу я попросить полотенце/подушку/чайник?": [
+                    "can i ask for a towel/pillow/tea-pot?"
+                ],
+                "где кухня/бар?": [
+                    "where is the kitchen/bar?"
+                ],
+                "во сколько завтрак/ужин/обед?": [
+                    "what time is breakfast/dinner/lunch?"
+                ],
+                "в номере есть интернет?": [
+                    "does the room have the internet access?"
+                ],
+                "у вас есть вегетарианское меню?": [
+                    "do you have a vegetarian menu?"
+                ],
+                "где контроль багажа?": [
+                    "where is luggage check?"
+                ],
+                "где справочная?": [
+                    "where is the information-office?"
+                ],
+                "где можно сдать (получить) багаж?": [
+                    "where can i chеck (pick up) my luggаgе?"
+                ],
+                "где зал ожидания?": [
+                    "where is the waiting room?"
+                ],
+                "где камера хранения?": [
+                    "where is the cloak-room?"
+                ],
+                "сколько мне заплатить за лишний вес?": [
+                    "how much shall i pay for the over-weight?"
+                ],
+                "где (когда) регистрация?": [
+                    "where (when) is the check-in?"
+                ],
+                "где это место?": [
+                    "where is this seat?"
+                ],
+                "вы могли бы поменяться со мной местами?": [
+                    "could i change seats with you?"
+                ],
+                "я могу взять эту сумку с собой на борт?": [
+                    "may i take this bag into the cabin?"
+                ],
+                "когда следующий рейс на ?": [
+                    "when is the next flight to ?"
+                ],
+                "где можно взять тележку для багажа?": [
+                    "where can i get a luggage cart?"
+                ],
+                "у вас есть код бронирования?": [
+                    "do you have your booking reference?"
+                ],
+                "это мой код бронирования": [
+                    "here’s my booking reference"
+                ],
+                "освободите карманы, пожалуйста.": [
+                    "please, empty your pockets."
+                ],
+                "ваш паспорт и билет, пожалуйста": [
+                    "your passport and ticket, please"
+                ],
+                "сколько времени продлится полет?": [
+                    "how long does the flight take?"
+                ],
+                "мы приземлимся примерно через 15 минут": [
+                    "we’ll be landing in about 15 minutes"
+                ],
+                "есть ли прямой поезд до ?": [
+                    "is there a direct train to ?"
+                ],
+                "дайте мне, пожалуйста, билет до лондона.": [
+                    "give me a single ticket to london, please."
+                ],
+                "дайте мне, пожалуйста, билет до …, туда и обратно.": [
+                    "give me a return ticket to…, please."
+                ],
+                "когда отправляется поезд на …?": [
+                    "when does the train to … leave?"
+                ],
+                "с какой платформы?": [
+                    "from which platform?"
+                ],
+                "как я могу пройти на платформу номер один?": [
+                    "how can i get to platform number one?"
+                ],
+                "это поезд номер один?": [
+                    "is this train number one?"
+                ],
+                "это вагон номер один?": [
+                    "is this carriage number one?"
+                ],
+                "покажите, пожалуйста, мое место": [
+                    "show me my place, please"
+                ],
+                "где туалет?": [
+                    "where is the toilet?"
+                ],
+                "от какой площадки отправляется мой автобус?": [
+                    "from what stand does my bus go?"
+                ],
+                "сколько стоит проезд до ?": [
+                    "what is the fare to ?"
+                ],
+                "билет туда и обратно, пожалуйста": [
+                    "i wоuld like a rоund-trip ticket, please"
+                ],
+                "этот автобус идет до ?": [
+                    "sorry, does this bus go to ?"
+                ],
+                "я хочу сдать билет": [
+                    "i want to cancel this ticket"
+                ],
+                "этот поезд останавливается в ?": [
+                    "does this train stop at ?"
+                ],
+                "не возражаете, если я здесь сяду?": [
+                    "do you mind if i sit here?"
+                ],
+                "это место занято?": [
+                    "is this seat taken?"
+                ],
+                "какая это остановка?": [
+                    "what is this stop?"
+                ],
+                "какая следующая остановка?": [
+                    "what is the next stop?"
+                ],
+                "это моя остановка": [
+                    "this is my stop"
+                ],
+                "вы не возражаете, если я открою окно?": [
+                    "do you mind if i open the window?"
+                ],
+                "вы не знаете, где можно поймать такси?": [
+                    "do you know where i can get a taxi?"
+                ],
+                "у вас есть номер такси?": [
+                    "do you have a taxi number?"
+                ],
+                "я хотел бы заказать такси.": [
+                    "i’d like a taxi, please."
+                ],
+                "вы свободны?": [
+                    "are you free?"
+                ],
+                "мне нужно в (на)": [
+                    "i need to go to"
+                ],
+                "где вы находитесь?": [
+                    "where are you?"
+                ],
+                "какой адрес?": [
+                    "what’s the address?"
+                ],
+                "как долго мне придется ждать?": [
+                    "how long will i have to wait?"
+                ],
+                "я очень спешу": [
+                    "i’m in a hurry"
+                ],
+                "сколько стоит?": [
+                    "how much?"
+                ],
+                "мне нужен чек": [
+                    "i need a check"
+                ],
+                "машина в пути": [
+                    "the car is on its way"
+                ],
+                "куда бы вы хотели поехать?": [
+                    "where would you like to go?"
+                ],
+                "отвезите меня по этому адресу, пожалуйста": [
+                    "take me to this address, please"
+                ],
+                "мне нужно на станцию …": [
+                    "i need to go to … station."
+                ],
+                "не могли бы вы отвезти меня в центр города?": [
+                    "could you take me to the city centre?"
+                ],
+                "могли бы мы остановиться у банкомата?": [
+                    "could we stop at a cash-point?",
+                    "could we stop at a cashpoint?"
+                ],
+                "сколько времени займет дорога?": [
+                    "how long will the journey take?"
+                ],
+                "я могу открыть (закрыть) окно?": [
+                    "may i open (close) the window?"
+                ],
+                "вы могли бы забрать меня отсюда в семь часов?": [
+                    "could you pick me up here at seven o’clock?"
+                ],
+                "вы могли бы подождать меня здесь?": [
+                    "could you wait for me here?"
+                ],
+                "где паспортный контроль?": [
+                    "where is passport control?"
+                ],
+                "вы должны заполнить эту форму": [
+                    "you have to fill in this form"
+                ],
+                "покажите, пожалуйста, как это заполнять": [
+                    "please, show me how to fill it in",
+                    "please show me how to fill it in"
+                ],
+                "пожалуйста, покажите ваш паспорт": [
+                    "could i see your passport, please?"
+                ],
+                "вот мой паспорт": [
+                    "here’s my passport"
+                ],
+                "откуда вы прибыли?": [
+                    "where have you travelled from?"
+                ],
+                "я в командировке": [
+                    "i am on a business trip"
+                ],
+                "вот моя транзитная виза": [
+                    "this is my transit visa"
+                ],
+                "откройте вашу сумку, пожалуйста": [
+                    "could you open your bag, please?"
+                ],
+                "вы должны уплатить за это пошлину": [
+                    "you have to pay duty on these items"
+                ],
+                "у меня только предметы личного пользования": [
+                    "i only have items for personal use"
+                ],
+                "мне нечего декларировать": [
+                    "i have nothing to declare"
+                ],
+                "мне нужен переводчик": [
+                    "i need an interpreter"
+                ],
+                "я бы хотел(-а) забронировать номер в вашем отеле": [
+                    "i`d like to book a room"
+                ],
+                "я забронировал(-а) номер в вашем отеле": [
+                    "i’ve got a reservation in your hotel"
+                ],
+                "сколько стоит одноместный (двухместный) номер?": [
+                    "how much is a single (double) room?"
+                ],
+                "на каком этаже номер?": [
+                    "what floor is it on?"
+                ],
+                "сколько стоит номер за ночь?": [
+                    "how much is it per night?"
+                ],
+                "что входит в стоимость номера?": [
+                    "what does the price include?"
+                ],
+                "нам нужен двухместный номер с дополнительной кроватью": [
+                    "we need one double room with an extra bed"
+                ],
+                "могу ли я взглянуть на комнату?": [
+                    "can i have a look at the room?"
+                ],
+                "есть ли в номере ванная (кондиционер, холодильник, телевизор, телефон, балкон, интернет)?": [
+                    "is there a bathroom (conditioner, fridge, tv, telephone, balcony, wi-fi internet)?"
+                ],
+                "извините, этот номер мне не подходит": [
+                    "sorry, it doesn’t suit me"
+                ],
+                "этот номер мне подходит": [
+                    "it suits me"
+                ],
+                "у вас есть номера подешевле?": [
+                    "do you have cheaper rooms?"
+                ],
+                "когда расчетный час?": [
+                    "when is the checkout time?"
+                ],
+                "я заплачу наличными": [
+                    "i will pay in cash"
+                ],
+                "я могу заплатить картой?": [
+                    "can i pay by card?"
+                ],
+                "закажите такси на 10 часов, пожалуйста": [
+                    "order a taxi for 10 o’clock, please"
+                ],
+                "мы уезжаем. я бы хотел расплатиться, пожалуйста": [
+                    "we're leaving. i'd like to pay, please"
+                ],
+                "пожалуйста, уберитесь в моем номере": [
+                    "please make up my room"
+                ],
+                "отправьте, пожалуйста, эту одежду на стирку": [
+                    "could you send these clothes to the laundry?"
+                ],
+                "я хотел бы поменять номер": [
+                    "i’d like to change my room"
+                ],
+                "я хотел бы купить": [
+                    "i'd like to buy"
+                ],
+                "я хотела бы примерить это платье": [
+                    "i would like to try on this dress"
+                ],
+                "во сколько закроется магазин сегодня?": [
+                    "what time is this shop going to be closed today?"
+                ],
+                "мне нужна пара обуви, размер": [
+                    "i want a pair of shoes, size"
+                ],
+                "можно примерить?": [
+                    "may i try it on?"
+                ],
+                "где мне можно это примерить?": [
+                    "where can i try it on?"
+                ],
+                "какой это размер?": [
+                    "which size is that?"
+                ],
+                "вы не покажете мне?": [
+                    "will you show me?"
+                ],
+                "дайте мне": [
+                    "give me"
+                ],
+                "это как раз то, что я искал": [
+                    "that’s just what i wanted"
+                ],
+                "не подходит по размеру": [
+                    "it doesn’t fit me"
+                ],
+                "у вас есть какие-то скидки?": [
+                    "have you got any discounts?"
+                ],
+                "сколько я должен?": [
+                    "how much is it?"
+                ],
+                "я хочу заказать столик": [
+                    "i want to order a table"
+                ],
+                "у вас есть свободные столики?": [
+                    "do you have free tables?"
+                ],
+                "я бы хотел кофе, чай, сок, салат, мороженое": [
+                    "i would like coffee, tea, juice, salad, ice-cream"
+                ],
+                "меню, пожалуйста": [
+                    "the menu, please"
+                ],
+                "мы еще не выбрали": [
+                    "we haven’t chosen yet"
+                ],
+                "что вы можете порекомендовать?": [
+                    "what can you recommend?"
+                ],
+                "это острое?": [
+                    "is it spicy?"
+                ],
+                "чек, пожалуйста": [
+                    "check please"
+                ],
+                "было очень вкусно": [
+                    "that was very good"
+                ],
+                "я этого не заказывал": [
+                    "i didn’t order that"
+                ],
+                "не могли бы вы": [
+                    "could you"
+                ],
+                "все в порядке": [
+                    "it's all right"
+                ],
+                "молодой человек": [
+                    "young man"
+                ],
+                "девушка": [
+                    "young lady"
+                ],
+                "извини меня за": [
+                    "sorry for"
+                ],
+                "запрещается": [
+                    "forbidden"
+                ],
+                "позвольте обратиться": [
+                    "beg your pardon"
+                ],
+                "позвольте вас представить": [
+                    "let me introduce you to"
+                ],
+                "сказать": [
+                    "tell"
+                ],
+                "показать": [
+                    "show"
+                ],
+                "принесите": [
+                    "bring"
+                ],
+                "дайте": [
+                    "give"
+                ],
+                "хорошо": [
+                    "all right"
+                ],
+                "я не согласен": [
+                    "i don’t agree"
+                ],
+                "отправления": [
+                    "departures"
+                ],
+                "справочная": [
+                    "enquiry office"
+                ],
+                "мой отель": [
+                    "my hotel"
+                ],
+                "туристический офис": [
+                    "touristic office"
+                ],
+                "аптека": [
+                    "chemists"
+                ],
+                "супермаркет": [
+                    "supermarket"
+                ],
+                "почта": [
+                    "post office"
+                ],
+                "банк": [
+                    "bank"
+                ],
+                "деньги": [
+                    "money"
+                ],
+                "банкомат": [
+                    "cash-point"
+                ],
+                "станция метро": [
+                    "metro station"
+                ],
+                "бензозаправка": [
+                    "petrol station"
+                ],
+                "полиция": [
+                    "police"
+                ],
+                "рынок": [
+                    "market"
+                ],
+                "пекарня": [
+                    "bakery"
+                ],
+                "налево": [
+                    "left"
+                ],
+                "направо": [
+                    "right"
+                ],
+                "вызовите полицию  ": [
+                    "call the police"
+                ],
+                "вызовите врача": [
+                    "call for a doctor"
+                ],
+                "я потерялся / заблудился": [
+                    "i'm lost"
+                ],
+                "время": [
+                    "time"
+                ],
+                "сегодня": [
+                    "today"
+                ],
+                "вчера": [
+                    "yesterday"
+                ],
+                "завтра": [
+                    "tomorrow"
+                ],
+                "утро": [
+                    "morning"
+                ],
+                "день": [
+                    "day"
+                ],
+                "вечер": [
+                    "evening"
+                ],
+                "ночь": [
+                    "night"
+                ],
+                "магазин": [
+                    "shop"
+                ],
+                "пиво": [
+                    "beer"
+                ],
+                "вино": [
+                    "wine"
+                ],
+                "вермишель": [
+                    "spaghetti"
+                ],
+                "сэндвич": [
+                    "sandwich"
+                ],
+                "чай": [
+                    "tea"
+                ],
+                "кофе": [
+                    "coffee"
+                ],
+                "где находится парковка?": [
+                    "where is the parking lot, please?"
+                ],
+                "здесь можно припарковаться?": [
+                    "can i park my car here?"
+                ],
+                "где ближайшая заправочная станция?": [
+                    "where is the nearest petrol station?"
+                ],
+                "сколько бензина вы желаете?": [
+                    "how much petrol would you like?"
+                ],
+                "полный бак, пожалуйста": [
+                    "full, please"
+                ],
+                "20 литров, пожалуйста": [
+                    "20 litres, please"
+                ],
+                "эта машина заправляется дизелем": [
+                    "this car takes diesel"
+                ],
+                "мне нужно масло": [
+                    "i’d like some oil"
+                ],
+                "тут можно проверить давление в колесах?": [
+                    "can i check my tyre pressure here?"
+                ],
+                "здесь можно помыть машину?": [
+                    "can i have the car washed?"
+                ],
+                "машина сломалась": [
+                    "the car has broken down"
+                ],
+                "машина не заводится": [
+                    "the car won’t start"
+                ],
+                "у нас закончился бензин": [
+                    "we’ve run out of petrol"
+                ],
+                "сел аккумулятор": [
+                    "the battery’s flat"
+                ],
+                "у меня спустило шину": [
+                    "i’ve got a flat tyre"
+                ],
+                "у меня проколото колесо": [
+                    "i’ve got a puncture"
+                ],
+                "в машине течет масло": [
+                    "the car’s losing oil"
+                ],
+                "не работает": [
+                    "the … isn’t/aren’t working"
+                ],
+                "спидометр": [
+                    "speedometer"
+                ],
+                "топливный датчик": [
+                    "fuel gauge"
+                ],
+                "стоп-сигналы": [
+                    "brake lights"
+                ],
+                "габаритные огни": [
+                    "marker lights"
+                ],
+                "какие-то проблемы с": [
+                    "there’s some problem with"
+                ],
+                "мотором": [
+                    "the engine"
+                ],
+                "рулевым управлением": [
+                    "the steering"
+                ],
+                "тормозами": [
+                    "the brakes"
+                ],
+                "покажите ваши водительские права": [
+                    "show me your driving licence, please"
+                ],
+                "вы знаете, с какой скоростью вы ехали?": [
+                    "do you know how fast you were going?"
+                ],
+                "у вас есть страховка на машину?": [
+                    "do you have insurance on this vehicle?"
+                ],
+                "покажите вашу страховку": [
+                    "could i see your insurance documents?"
+                ],
+                "вы принимали алкоголь?": [
+                    "have you had anything to drink?"
+                ],
+                "сколько вы выпили?": [
+                    "how much have you had to drink?"
+                ],
+                "подуйте в эту трубку, пожалуйста": [
+                    "could you blow into this tube, please?"
+                ],
+                "стоп": [
+                    "stop"
+                ],
+                "уступить дорогу": [
+                    "give way / yield"
+                ],
+                "нет проезда": [
+                    "no entry",
+                    "no through road"
+                ],
+                "односторонняя дорога": [
+                    "one way"
+                ],
+                "держитесь левой стороны": [
+                    "keep left"
+                ],
+                "придерживайтесь полосы": [
+                    "get in lane"
+                ],
+                "сбавить скорость": [
+                    "slow down"
+                ],
+                "обгон запрещен": [
+                    "no overtaking"
+                ],
+                "школа": [
+                    "school"
+                ],
+                "низкий мост": [
+                    "low bridge"
+                ],
+                "железнодорожный переезд": [
+                    "level crossing"
+                ],
+                "автобусная полоса": [
+                    "bus lane"
+                ],
+                "внимание": [
+                    "caution"
+                ],
+                "туман": [
+                    "fog"
+                ],
+                "объезд": [
+                    "diversion"
+                ],
+                "дорога закрыта": [
+                    "road closed"
+                ],
+                "дорожные работы": [
+                    "roadworks"
+                ],
+                "впереди авария": [
+                    "accident ahead"
+                ],
+                "впереди пробка": [
+                    "queue ahead"
+                ],
+                "пробка после следующего перекрестка": [
+                    "queues after next junction"
+                ],
+                "на буксире": [
+                    "on tow"
+                ],
+                "зона отдыха": [
+                    "services"
+                ],
+                "я хотел бы заказать такси": [
+                    "i’d like a taxi, please"
+                ],
+                "извините, сейчас свободных такси нет": [
+                    "sorry, there are none available at the moment"
+                ],
+                "в отеле «бересфорд»": [
+                    "at the beresford hotel"
+                ],
+                "в аэропорту": [
+                    "at the airport"
+                ],
+                "на углу хайгейт-роуд и миллфилд-лейн": [
+                    "at the corner of highgate road and millfield lane"
+                ],
+                "назовите свое имя, пожалуйста": [
+                    "could i take your name, please?"
+                ],
+                "мне нужно поехать на станцию «чаринг кросс»": [
+                    "i need to go to charing cross station"
+                ],
+                "сколько это будет стоить?": [
+                    "how much will it cost?"
+                ],
+                "я могу открыть окно?": [
+                    "may i open the window?"
+                ],
+                "я могу закрыть окно?": [
+                    "may i close the window?"
+                ],
+                "вы желаете чек?": [
+                    "would you like a receipt?"
+                ],
+                "могу я получить чек, пожалуйста?": [
+                    "could i have a receipt, please?"
+                ],
+                "свободно": [
+                    "for hire"
+                ],
+                "во сколько идет следующий автобус на рочестер?": [
+                    "what time is the next bus to rochester?"
+                ],
+                "во сколько идет следующий поезд на ливерпуль?": [
+                    "what time is the next train to liverpool?"
+                ],
+                "можно ли купить билет прямо в автобусе?": [
+                    "can i buy a ticket on the bus?"
+                ],
+                "можно ли купить билет прямо в поезде?": [
+                    "can i buy a ticket on the train?"
+                ],
+                "сколько стоит билет в один конец до лондона?": [
+                    "how much is a single ticket to london?"
+                ],
+                "сколько стоит билет в оба конца до манчестера?": [
+                    "how much is a return ticket to manchester?"
+                ],
+                "билет в один конец": [
+                    "single"
+                ],
+                "билет в оба конца": [
+                    "return"
+                ],
+                "детский билет в один конец": [
+                    "child single"
+                ],
+                "детский билет в оба конца": [
+                    "child return"
+                ],
+                "пенсионерский билет в один конец": [
+                    "senior citizens’ single"
+                ],
+                "пенсионерский билет в оба конца": [
+                    "senior citizens’ return"
+                ],
+                "билет первого класса в один конец": [
+                    "first class single"
+                ],
+                "билет первого класса в оба конца": [
+                    "first class return"
+                ],
+                "есть ли скидки на билеты не в час-пик?": [
+                    "are there reductions for off-peak travel?"
+                ],
+                "когда вы хотели бы выехать?": [
+                    "when would you like to travel?"
+                ],
+                "когда бы вы хотели вернуться?": [
+                    "when will you be coming back?"
+                ],
+                "какая платформа на бирмингем?": [
+                    "which platform do i need for birmingham?"
+                ],
+                "это правильная платформа для кардиффа?": [
+                    "is this the right platform for cardiff?"
+                ],
+                "где мне нужно сделать пересадку?": [
+                    "where should i change trains?"
+                ],
+                "вам нужно сделать пересадку в киркби": [
+                    "you’ll have to change at kirkby"
+                ],
+                "это действующее расписание?": [
+                    "is this the current timetable?"
+                ],
+                "как часто ходят автобусы на плимут?": [
+                    "how often do the buses run to plymouth?"
+                ],
+                "как часто ходят поезда на йорк?": [
+                    "how often do the trains run to york?"
+                ],
+                "я хотел бы продлить сезонный билет, пожалуйста": [
+                    "i’d like to renew my season ticket, please"
+                ],
+                "этот автобус останавливается на трафальгарской площади?": [
+                    "does this bus stop at trafalgar square?"
+                ],
+                "этот поезд останавливается в лейчестере?": [
+                    "does this train stop at leicester?"
+                ],
+                "скажите мне, пожалуйста, когда мы доедем до университета?": [
+                    "could you tell me when we get to the university?"
+                ],
+                "это место свободно?": [
+                    "is this seat free?"
+                ],
+                "билеты, пожалуйста": [
+                    "tickets, please"
+                ],
+                "покажите ваш билет, пожалуйста": [
+                    "could i see your ticket, please?"
+                ],
+                "я потерял билет": [
+                    "i’ve lost my ticket"
+                ],
+                "во сколько мы прибываем в шеффилд?": [
+                    "what time do we arrive in sheffield?"
+                ],
+                "я выхожу здесь": [
+                    "i’m getting off here"
+                ],
+                "в поезде есть вагон-ресторан?": [
+                    "is there a dining car on the train?"
+                ],
+                "мы прибываем на станцию кингс-кросс": [
+                    "we are now approaching london kings cross"
+                ],
+                "этот поезд дальше не идет": [
+                    "this train terminates here"
+                ],
+                "не забудьте забрать багаж и все личные вещи": [
+                    "please take all your luggage and personal belongings with you"
+                ],
+                "билеты": [
+                    "tickets"
+                ],
+                "платформа": [
+                    "platform"
+                ],
+                "зал ожидания": [
+                    "waiting room"
+                ],
+                "остановка по требованию": [
+                    "request stop"
+                ],
+                "вовремя": [
+                    "on time"
+                ],
+                "прибывает": [
+                    "expected"
+                ],
+                "задерживается": [
+                    "delayed"
+                ],
+                "задержка": [
+                    "delayed"
+                ],
+                "отменен": [
+                    "cancelled"
+                ],
+                "отмена": [
+                    "cancelled"
+                ],
+                "останавливается в": [
+                    "calling at"
+                ],
+                "специальные места (для беременных, пожилых, инвалидов)": [
+                    "priority seat"
+                ],
+                "к поездам": [
+                    "to trains"
+                ],
+                "поезда на лондон": [
+                    "trains to london"
+                ],
+                "выход": [
+                    "way out"
+                ],
+                "осторожно, щель": [
+                    "mind the gap"
+                ],
+                "я хотел бы забрать свой билет": [
+                    "i’ve come to collect my tickets"
+                ],
+                "я заказал билет в интернете": [
+                    "i booked on the internet"
+                ],
+                "в вашем багаже есть жидкости или острые предметы?": [
+                    "do you have any liquids or sharp objects in your hand baggage?"
+                ],
+                "сколько сумок вы сдаете?": [
+                    "how many bags are you checking in?"
+                ],
+                "покажите вашу ручную кладь, пожалуйста": [
+                    "could i see your hand baggage, please?"
+                ],
+                "я должен это сдать или могу взять с собой?": [
+                    "do i need to check this in or can i take it with me?"
+                ],
+                "дополнительная плата за багаж 20 фунтов": [
+                    "there’s an excess baggage charge of £20"
+                ],
+                "вы хотите сидеть у окна или в проходе?": [
+                    "would you like a window or an aisle seat?"
+                ],
+                "рейс задерживается": [
+                    "the flight has been delayed"
+                ],
+                "у вас есть с собой какие-либо жидкости?": [
+                    "are you carrying any liquids?"
+                ],
+                "снимите пальто/обувь/ремень, пожалуйста": [
+                    "could you take off your coat/shoes/belt please?"
+                ],
+                "положите металлические предметы на поднос, пожалуйста": [
+                    "could you put any metallic objects into the tray, please?"
+                ],
+                "освободите карманы, пожалуйста": [
+                    "please empty your pockets"
+                ],
+                "пожалуйста достаньте ноутбук из сумки": [
+                    "please take your laptop out of its case"
+                ],
+                "к сожалению, вы не можете взять это с собой": [
+                    "i’m afraid you can’t take that through"
+                ],
+                "какой номер рейса?": [
+                    "what is the flight number?"
+                ],
+                "какие у нас ворота?": [
+                    "which gate do we need?"
+                ],
+                "рейс отменен": [
+                    "the flight has been cancelled"
+                ],
+                "мы хотели бы извиниться за задержку": [
+                    "we’d like to apologise for the delay"
+                ],
+                "покажите ваш паспорт и посадочный талон, пожалуйста": [
+                    "could i see your passport and boarding card, please?"
+                ],
+                "какой у вас номер места?": [
+                    "what’s your seat number?"
+                ],
+                "пожалуйста, обратите внимание на демонстрацию техники безопасности": [
+                    "please pay attention to this short safety demonstration"
+                ],
+                "пожалуйста, отключите мобильные телефоны и электронные приборы": [
+                    "please turn off all mobile phones and electronic devices"
+                ],
+                "вы желаете еду или напитки?": [
+                    "would you like any food or refreshments?"
+                ],
+                "краткосрочная парковка": [
+                    "short stay"
+                ],
+                "долгосрочная парковка": [
+                    "long stay"
+                ],
+                "международная регистрация": [
+                    "international check-in"
+                ],
+                "прибытие международных рейсов": [
+                    "international arrivals"
+                ],
+                "местные рейсы": [
+                    "domestic flights"
+                ],
+                "туалеты": [
+                    "toilets"
+                ],
+                "информация": [
+                    "information"
+                ],
+                "кассы": [
+                    "ticket offices"
+                ],
+                "хранилище": [
+                    "lockers"
+                ],
+                "телефон-автомат": [
+                    "payphones"
+                ],
+                "ресторан": [
+                    "restaurant"
+                ],
+                "регистрация": [
+                    "check-in"
+                ],
+                "ворота 1-32": [
+                    "gates 1-32"
+                ],
+                "магазины дьюти-фри": [
+                    "duty free shopping"
+                ],
+                "пересадка": [
+                    "transfers",
+                    "flight connections"
+                ],
+                "прокат автомобилей": [
+                    "car hire"
+                ],
+                "отправляющиеся рейсы": [
+                    "departures board"
+                ],
+                "посадка": [
+                    "now boarding"
+                ],
+                "последний вызов": [
+                    "last call"
+                ],
+                "ворота закрываются": [
+                    "gate closing"
+                ],
+                "ворота закрыты": [
+                    "gate closed"
+                ],
+                "вылетел": [
+                    "departed"
+                ],
+                "прибывающие рейсы": [
+                    "arrivals board"
+                ],
+                "ожидается в 21:35": [
+                    "expected 21:35"
+                ],
+                "приземлился в 12:48": [
+                    "landed 12:48"
+                ],
+                "какова цель вашей поездки?": [
+                    "what is the purpose of your visit?"
+                ],
+                "я турист": [
+                    "i’m a tourist"
+                ],
+                "я в отпуске": [
+                    "i am on vacation"
+                ],
+                "это мой первый приезд": [
+                    "this is my first visit"
+                ],
+                "как долго вы собираетесь здесь пробыть?": [
+                    "how long will you be staying here?"
+                ],
+                "где вы будете жить?": [
+                    "where will you be staying?"
+                ],
+                "я собираюсь пробыть здесь две недели": [
+                    "i plan to stay two weeks"
+                ],
+                "у вас есть что-нибудь, подлежащее декларации?": [
+                    "do you have anything to declare?"
+                ],
+                "граждане ес": [
+                    "eu citizens"
+                ],
+                "все паспорта": [
+                    "all passports"
+                ],
+                "ждите за желтой чертой": [
+                    "wait behind the yellow line"
+                ],
+                "пожалуйста, приготовьте паспорт": [
+                    "please have your passport ready"
+                ],
+                "во сколько следующий корабль на белфаст?": [
+                    "what time is the next boat to belfast?"
+                ],
+                "я хотел бы двухместную каюту": [
+                    "i’d like a two-berth cabin"
+                ],
+                "я хотел бы билет на машину и двух пассажиров": [
+                    "i’d like a ticket for a car and two passengers"
+                ],
+                "я хотел бы билет для пассажира": [
+                    "i’d like a ticket for a passenger"
+                ],
+                "как долго продлится рейс?": [
+                    "how long does the crossing take?"
+                ],
+                "во сколько паром прибывает в берген?": [
+                    "what time does the ferry arrive in bergen?"
+                ],
+                "во сколько отплытие?": [
+                    "when does it sail?"
+                ],
+                "когда начинается посадка?": [
+                    "what time do we board?"
+                ],
+                "где находится информационный пункт?": [
+                    "where is the information desk?"
+                ],
+                "где каюта номер 235?": [
+                    "where is cabin number 235?"
+                ],
+                "на какой палубе находится бар?": [
+                    "which deck is the bar on?"
+                ],
+                "каюты": [
+                    "cabins"
+                ],
+                "автомобильная палуба": [
+                    "car deck"
+                ],
+                "лестница": [
+                    "stairs"
+                ],
+                "кино": [
+                    "cinema"
+                ],
+                "спасательные жилеты": [
+                    "lifejackets"
+                ],
+                "списки мест, которые люди хотят посетить": [
+                    "travel bucket lists"
+                ],
+                "поездки в необычные места": [
+                    "unusual destinations"
+                ],
+                "отдых в родном городе и многое другое": [
+                    "staycation"
+                ],
+                "очередь ": [
+                    "queue"
+                ],
+                "включено": [
+                    "included"
+                ],
+                "выход на посадку ": [
+                    "gate"
+                ],
+                "экскурсия ": [
+                    "excursion"
+                ],
+                "зарядить ": [
+                    "to charge"
+                ],
+                "бронировать ": [
+                    "to book"
+                ]
+            }
+        },
+        {
+            "name": "Животные",
+            "words": {
+                "пингвин": [
+                    "penguin"
+                ],
+                "собака": [
+                    "dog"
+                ],
+                "кошка": [
+                    "cat"
+                ],
+                "попугай": [
+                    "parrot"
+                ],
+                "лягушка": [
+                    "frog"
+                ],
+                "змея": [
+                    "snake"
+                ],
+                "ссылка": [
+                    "link"
+                ]
+            }
+        },
+        {
+            "name": "Пустая",
+            "words": {
+                "каюты": [
+                    "cabins"
+                ],
+                "автомобильная палуба": [
+                    "car deck"
+                ],
+                "лестница": [
+                    "stairs"
+                ],
+                "информация": [
+                    "information"
+                ],
+                "ресторан": [
+                    "restaurant"
+                ],
+                "кино": [
+                    "cinema"
+                ],
+                "магазин": [
+                    "shop"
+                ],
+                "спасательные жилеты": [
+                    "lifejackets"
+                ],
+                "поездки в необычные места": [
+                    "unusual destinations"
+                ],
+                "включено (в стоимость)": [
+                    "included"
+                ],
+                "зарядить": [
+                    "to charge"
+                ],
+                "ссылка": [
+                    "link"
+                ],
+                "ссылочка": [
+                    "link"
+                ],
+                "ссылки": [
+                    "links"
+                ]
+            }
+        },
+        {
+            "name": "ljklk",
+            "words": {
+                "ссылкb": [
+                    "link"
+                ],
+                "ссылка": [
+                    "link"
+                ],
+                "ссылочка": [
+                    "link"
+                ]
+            }
+        },
+        {
+            "name": "ljklk",
+            "words": {
+                "где вы находитесь?": [
+                    "where are you?"
+                ],
+                "ссылка": [
+                    "link"
+                ],
+                "ссылочка": [
+                    "link"
+                ]
+            }
+        },
+        {
+            "name": "тест",
+            "words": {
+                "где вы находитесь?": [
+                    "where are you?"
+                ],
+                "привет": [
+                    "hi",
+                    "hello"
+                ],
+                "ссылка": [
+                    "link"
+                ],
+                "ссылочка": [
+                    "link"
+                ]
+            }
+        },
+        {
+            "name": "тест реверс",
+            "words": {}
+        },
+        {
+            "name": "test revers",
+            "words": {
+                "где вы находитесь?": [
+                    "where are you?"
+                ]
+            }
+        }
+    ]
+}

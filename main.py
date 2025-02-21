@@ -20,13 +20,16 @@ back_keyboard.row('Назад')
 delete_sets_keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
 delete_sets_keyboard.row('Да', 'Нет')
 database = {}#конечный словарь с id пользователей
-
+reverse_dict = {}
 
 def load_from_json(data): #обработка json и вывод словаря
     with open(data, 'r', encoding='utf-8') as file:
         data = json.load(file)  # Load JSON as a list of dictionaries
     return [PairWords.from_dict(item) for item in data]
-
+    #нужно добавить подключение к revers_data_json
+    with open(reverse_data, 'r', encoding='utf-8') as file:#добавила 20,02,25 но не факт что правильно
+        data = json.load(file)  # Load JSON as a list of dictionaries
+        return [PairWords.from_dict(item) for item in data]
 def open_database(file_name):
     with open(file_name, 'r', encoding='utf-8') as file:
         data_try = json.load(file)
@@ -43,6 +46,7 @@ set_pair_words = load_from_json('data.json') #init_test_set_pair_words()пере
 #dictionary = {'reboot':['перезагружать'], 'source':['источник'], 'compile':['компилировать']}#временный нужно будет полностью перейти на список подборок
 
 open_database('try_data_json.json')
+open_database('reverse_data_json.json')# добавила 20,02,25 но не факт что правильно
 print(database)
 
 @bot.message_handler(commands=['start'])
@@ -180,6 +184,14 @@ def add_pair_words(message, number_set):#функция получения со�
             print(database[message.from_user.id][number_set])
             database[message.from_user.id][number_set].add(words_split[0], words_split_transcript)
             save_data(message.from_user.id)
+            for key, values in [(words_split[0], words_split_transcript)]:#создаем обратный словарь для проверок одинаковых англ слов
+                for value in values:
+                    if value not in reverse_dict[message.from_user.id][number_set].words:
+                        reverse_dict[message.from_user.id][number_set].words[value] = [key]
+                    else:
+                        reverse_dict[message.from_user.id][number_set].words[value].append(key)
+                    # если нет значения, то он создает его
+            print(reverse_dict[message.from_user.id][number_set].words)
         else:
             answer = 'NO'
             not_correct.append(line)
