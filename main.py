@@ -27,9 +27,7 @@ def load_from_json(data): #обработка json и вывод словаря
         data = json.load(file)  # Load JSON as a list of dictionaries
     return [PairWords.from_dict(item) for item in data]
     #нужно добавить подключение к revers_data_json
-    with open(reverse_data, 'r', encoding='utf-8') as file:#добавила 20,02,25 но не факт что правильно
-        data = json.load(file)  # Load JSON as a list of dictionaries
-        return [PairWords.from_dict(item) for item in data]
+
 def open_database(file_name):
     with open(file_name, 'r', encoding='utf-8') as file:
         data_try = json.load(file)
@@ -40,13 +38,22 @@ def open_database(file_name):
             database[key_id].append(PairWords.from_dict(item))
     return database
     #return [PairWords.from_dict(item) for item in data_try]
+def open_revers_data(reverse_data):
+    with open(reverse_data, 'r', encoding='utf-8') as file:
+        data_revers = json.load(file)
+    for key_id in data_revers:
+        key_id = int(key_id)
+        reverse_dict[key_id] = []
+        for item in data_revers[str(key_id)]:
+            reverse_dict[key_id].append(PairWords.from_dict(item))
+    return reverse_dict
 
 set_pair_words = load_from_json('data.json') #init_test_set_pair_words()переделываем под database, чтобы учитывать id пользователя
 
 #dictionary = {'reboot':['перезагружать'], 'source':['источник'], 'compile':['компилировать']}#временный нужно будет полностью перейти на список подборок
 
 open_database('try_data_json.json')
-open_database('reverse_data_json.json')# добавила 20,02,25 но не факт что правильно
+open_revers_data('reverse_data_json.json')# добавила 20,02,25 но не факт что правильно
 print(database)
 
 @bot.message_handler(commands=['start'])
@@ -346,6 +353,7 @@ def create_new_set(message):#создание новой подборки
     elif len(text) > 0 and text != 'Назад':
         new_pair_words = PairWords(text)
         database[message.from_user.id].append(new_pair_words)
+        reverse_dict[message.fron_user.id].append(new_pair_words)
         bot.send_message(message.from_user.id, 'Добавлено успешно', reply_markup=sets_keyboard)
         bot.register_next_step_handler(message, select_action, len(database[message.from_user.id]) - 1)#номер подборки индекс(длина-1) , был set_pair_words
         save_data(message.from_user.id)
