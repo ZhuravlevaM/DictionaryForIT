@@ -21,7 +21,7 @@ def open_database(file_name):
             database[key_id].append(PairWords.from_dict(item))
     return database
 
-open_database('try_data_json.json')
+open_database('data.json')
 
 d = {'hi': ['привет', 'здравствуйте'], 'hello': ['привет', 'здравствуйте']}
 
@@ -48,7 +48,7 @@ def save_data(user_id):#
     for key in database:
         database_for_savedata[key] = [element.to_dict() for element in database[user_id]]
     print(database_for_savedata)
-    file_dictionary = open('reverse_data_json.json', 'w', encoding='utf-8')# создание файла в котором будет храниться подборка
+    file_dictionary = open('reverse_data.json', 'w', encoding='utf-8')# создание файла в котором будет храниться подборка
     file_dictionary.write(json.dumps(database_for_savedata, ensure_ascii=False, indent=4))#было in set_pair_words
     file_dictionary.close()
 

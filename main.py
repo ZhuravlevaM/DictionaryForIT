@@ -48,12 +48,14 @@ def open_revers_data(reverse_data):
             reverse_dict[key_id].append(PairWords.from_dict(item))
     return reverse_dict
 
-set_pair_words = load_from_json('data.json') #init_test_set_pair_words()переделываем под database, чтобы учитывать id пользователя
 
+set_pair_words = load_from_json('data.json') #init_test_set_pair_words()переделываем под database, чтобы учитывать id пользователя
+reverse_set_pair_words = load_from_json('reverse_data.json')
 #dictionary = {'reboot':['перезагружать'], 'source':['источник'], 'compile':['компилировать']}#временный нужно будет полностью перейти на список подборок
 
 open_database('try_data_json.json')
 open_revers_data('reverse_data_json.json')# добавила 20,02,25 но не факт что правильно
+load_from_json('reverse_data.json')
 print(database)
 
 @bot.message_handler(commands=['start'])
@@ -61,6 +63,7 @@ def welcome(message):
     user_id = message.from_user.id
     if user_id not in database.keys():
         database[user_id] = load_from_json('data.json')
+        reverse_dict[user_id] = load_from_json('reverse_data.json')
     bot.send_message(message.from_user.id, 'Добро пожаловать в чат-бот по изучению IT словаря', reply_markup=main_keyboard)
 
 @bot.message_handler(content_types=['text'])
