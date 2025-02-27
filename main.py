@@ -296,7 +296,7 @@ def change_name_set(message, number_set):# смена имени подборк�
 #         bot.send_message(message.from_user.id, text='Такого слова не найдено')
 #         pass
 
-def exercise(message, copy_dict, right_answer): #тренировка
+def exercise(message, copy_dict, right_answer, number_set): #тренировка
     check_answer = message.text.lower()
     print('right_answer', type(right_answer), 'check_answer', type(check_answer))
     print('right_answer', right_answer, 'check_answer', check_answer)
@@ -326,11 +326,16 @@ def exercise(message, copy_dict, right_answer): #тренировка
         copy_dict.pop(rand_tuple[0])
         rand = list(rand_tuple)
         random.shuffle(rand)
-        print(rand)
+        print('rand', rand)
         if isinstance(rand[0], list):
+            print('rand[0][0]', rand[0][0])
+            print('word', reverse_dict[message.from_user.id][number_set].get_words())
+            if rand[0][0] in reverse_dict[message.from_user.id][number_set].get_words():
+                rand[1] = reverse_dict[message.from_user.id][number_set].get_words()[rand[0][0]]
+                print('rand[1]', rand[1])
             rand[0] = ', '.join(rand[0])
         bot.send_message(message.from_user.id, 'Введите перевод - ' + rand[0])
-        bot.register_next_step_handler(message, exercise, copy_dict, rand[1])
+        bot.register_next_step_handler(message, exercise, copy_dict, rand[1], number_set)
 
 
 def delete_set(message, number_set):#удалить подборку,в которой находится пользователь
@@ -346,7 +351,7 @@ def delete_set(message, number_set):#удалить подборку,в кото
         bot.send_message(message.from_user.id, 'Подборка не удалена', reply_markup=sets_keyboard)
         bot.send_message(message.from_user.id, 'Вы остались в той же подборке, выберите действие')
         bot.register_next_step_handler(message, select_action, number_set)
-
+    # нужно добавить удаление в подборке реверс
 
 def create_new_set(message):#создание новой подборки
     text = message.text.replace(' ', ' ')
@@ -377,7 +382,7 @@ def del_word(message, number_set):#удаление слов из подборк
     else:
         bot.send_message(message.from_user.id, 'Слово не найдено')
         bot.register_next_step_handler(message, select_action, number_set)
-
+    #нужно добавить удаление из бодборки реверс
 def select_set_for_training(message):#выбор подборки для тренировки
     number_set = message.text.lower()
     if number_set.isdigit() and 1 <= int(number_set) <= len(database[message.from_user.id]):#был set_pair_words
@@ -402,7 +407,7 @@ def select_set_for_training(message):#выбор подборки для тре�
             if isinstance(rand[0], list):
                 rand[0] = ', '.join(rand[0])
             bot.send_message(message.from_user.id, 'Введите перевод - ' + rand[0])
-            bot.register_next_step_handler(message, exercise, copy_dict, rand[1])
+            bot.register_next_step_handler(message, exercise, copy_dict, rand[1], number_set)
 
     elif number_set == 'назад':
         bot.send_message(message.from_user.id, 'Вы вернулись в главное меню', reply_markup=main_keyboard)
