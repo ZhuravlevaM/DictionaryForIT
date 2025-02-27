@@ -442,7 +442,7 @@
             ],
             "бюро находок": [
                 "lost and found",
-                "lost property (lost & found)"
+                "lost property (lost & found)"
             ],
             "справочная служба аэропорта": [
                 "airline enquiries"
@@ -886,7 +886,7 @@
             ],
             "стоянка запрещена": [
                 "parking prohibited",
-                "no parking"
+                "no parking"
             ],
             "остановка запрещена": [
                 "no stopping"
@@ -1446,7 +1446,7 @@
             ],
             "где это место?": [
                 "where is this seat?",
-                "where is this seat?"
+                "where is this seat?"
             ],
             "вы могли бы поменяться со мной местами?": [
                 "could i change seats with you?"
@@ -1465,7 +1465,7 @@
             ],
             "это мой код бронирования": [
                 "here’s my booking reference",
-                "here’s my booking reference"
+                "here’s my booking reference"
             ],
             "освободите карманы, пожалуйста.": [
                 "please, empty your pockets."
@@ -1473,7 +1473,7 @@
             "ваш паспорт и билет, пожалуйста": [
                 "your passport and ticket, please"
             ],
-            "ваш паспорт и билет, пожалуйста": [
+            "ваш паспорт и билет, пожалуйста": [
                 "your passport and ticket, please"
             ],
             "сколько времени продлится полет?": [
@@ -1536,19 +1536,19 @@
             ],
             "это место занято?": [
                 "is this seat taken?",
-                "is this seat taken?"
+                "is this seat taken?"
             ],
             "какая это остановка?": [
                 "what is this stop?",
-                "what is this stop?"
+                "what is this stop?"
             ],
             "какая следующая остановка?": [
                 "what is the next stop?",
-                "what is the next stop?"
+                "what is the next stop?"
             ],
             "это моя остановка": [
                 "this is my stop",
-                "this is my stop"
+                "this is my stop"
             ],
             "вы не возражаете, если я открою окно?": [
                 "do you mind if i open the window?"
@@ -1571,7 +1571,7 @@
             "где вы находитесь?": [
                 "where are you?"
             ],
-            "где вы находитесь?": [
+            "где вы находитесь?": [
                 "where are you?"
             ],
             "какой адрес?": [
@@ -1580,7 +1580,7 @@
             ],
             "как долго мне придется ждать?": [
                 "how long will i have to wait?",
-                "how long will i have to wait?"
+                "how long will i have to wait?"
             ],
             "я очень спешу": [
                 "i’m in a hurry"
@@ -1630,20 +1630,20 @@
             ],
             "покажите, пожалуйста, как это заполнять": [
                 "please, show me how to fill it in",
-                "please show me how to fill it in"
+                "please show me how to fill it in"
             ],
             "пожалуйста, покажите ваш паспорт": [
                 "could i see your passport, please?",
-                "could i see your passport, please?"
+                "could i see your passport, please?"
             ],
             "вот мой паспорт": [
                 "here’s my passport",
-                "here’s my passport"
+                "here’s my passport"
             ],
             "откуда вы прибыли?": [
                 "where have you travelled from?"
             ],
-            "откуда вы прибыли?": [
+            "откуда вы прибыли?": [
                 "where have you travelled from?"
             ],
             "я в командировке": [
@@ -1651,7 +1651,7 @@
             ],
             "вот моя транзитная виза": [
                 "this is my transit visa",
-                "this is my transit visa"
+                "this is my transit visa"
             ],
             "откройте вашу сумку, пожалуйста": [
                 "could you open your bag, please?",
@@ -1665,7 +1665,7 @@
             ],
             "мне нечего декларировать": [
                 "i have nothing to declare",
-                "i have nothing to declare"
+                "i have nothing to declare"
             ],
             "мне нужен переводчик": [
                 "i need an interpreter"
@@ -1948,22 +1948,22 @@
                 "coffee"
             ],
             "где находится парковка?": [
-                "where is the parking lot, please?"
+                "where is the parking lot, please?"
             ],
             "здесь можно припарковаться?": [
-                "can i park my car here?"
+                "can i park my car here?"
             ],
             "где ближайшая заправочная станция?": [
-                "where is the nearest petrol station?"
+                "where is the nearest petrol station?"
             ],
-            "сколько бензина вы желаете?": [
+            "сколько бензина вы желаете?": [
                 "how much petrol would you like?"
             ],
             "полный бак, пожалуйста": [
                 "full, please"
             ],
-            "20 литров, пожалуйста": [
-                "20 litres, please"
+            "20 литров, пожалуйста": [
+                "20 litres, please"
             ],
             "эта машина заправляется дизелем": [
                 "this car takes diesel"
@@ -1971,34 +1971,34 @@
             "мне нужно масло": [
                 "i’d like some oil"
             ],
-            "тут можно проверить давление в колесах?": [
-                "can i check my tyre pressure here?"
+            "тут можно проверить давление в колесах?": [
+                "can i check my tyre pressure here?"
             ],
             "здесь можно помыть машину?": [
-                "can i have the car washed?"
+                "can i have the car washed?"
             ],
             "машина сломалась": [
                 "the car has broken down"
             ],
-            "машина не заводится": [
+            "машина не заводится": [
                 "the car won’t start"
             ],
-            "у нас закончился бензин": [
-                "we’ve run out of petrol"
+            "у нас закончился бензин": [
+                "we’ve run out of petrol"
             ],
             "сел аккумулятор": [
                 "the battery’s flat"
             ],
-            "у меня спустило шину": [
-                "i’ve got a flat tyre"
+            "у меня спустило шину": [
+                "i’ve got a flat tyre"
             ],
-            "у меня проколото колесо": [
-                "i’ve got a puncture"
+            "у меня проколото колесо": [
+                "i’ve got a puncture"
             ],
-            "в машине течет масло": [
+            "в машине течет масло": [
                 "the car’s losing oil"
             ],
-            "не работает": [
+            "не работает": [
                 "the … isn’t/aren’t working"
             ],
             "спидометр": [
@@ -2026,53 +2026,53 @@
                 "the brakes"
             ],
             "покажите ваши водительские права": [
-                "show me your driving licence, please"
+                "show me your driving licence, please"
             ],
-            "вы знаете, с какой скоростью вы ехали?": [
-                "do you know how fast you were going?"
+            "вы знаете, с какой скоростью вы ехали?": [
+                "do you know how fast you were going?"
             ],
-            "у вас есть страховка на машину?": [
-                "do you have insurance on this vehicle?"
+            "у вас есть страховка на машину?": [
+                "do you have insurance on this vehicle?"
             ],
             "покажите вашу страховку": [
-                "could i see your insurance documents?"
+                "could i see your insurance documents?"
             ],
-            "вы принимали алкоголь?": [
-                "have you had anything to drink?"
+            "вы принимали алкоголь?": [
+                "have you had anything to drink?"
             ],
-            "сколько вы выпили?": [
-                "how much have you had to drink?"
+            "сколько вы выпили?": [
+                "how much have you had to drink?"
             ],
-            "подуйте в эту трубку, пожалуйста": [
+            "подуйте в эту трубку, пожалуйста": [
                 "could you blow into this tube, please?"
             ],
             "стоп": [
                 "stop"
             ],
             "уступить дорогу": [
-                "give way / yield"
+                "give way / yield"
             ],
             "нет проезда": [
-                "no entry",
-                "no through road"
+                "no entry",
+                "no through road"
             ],
             "односторонняя дорога": [
                 "one way"
             ],
-            "не останавливаться": [
-                "no stopping"
+            "не останавливаться": [
+                "no stopping"
             ],
             "держитесь левой стороны": [
                 "keep left"
             ],
             "придерживайтесь полосы": [
-                "get in lane"
+                "get in lane"
             ],
             "сбавить скорость": [
                 "slow down"
             ],
             "обгон запрещен": [
-                "no overtaking"
+                "no overtaking"
             ],
             "школа": [
                 "school"
@@ -2110,202 +2110,202 @@
             "пробка после следующего перекрестка": [
                 "queues after next junction"
             ],
-            "на буксире": [
-                "on tow"
+            "на буксире": [
+                "on tow"
             ],
             "зона отдыха": [
                 "services"
             ],
-            "вы не знаете, где можно поймать такси?": [
-                "do you know where i can get a taxi?"
+            "вы не знаете, где можно поймать такси?": [
+                "do you know where i can get a taxi?"
             ],
-            "у вас есть номер такси?": [
-                "do you have a taxi number?"
+            "у вас есть номер такси?": [
+                "do you have a taxi number?"
             ],
-            "я хотел бы заказать такси": [
-                "i’d like a taxi, please"
+            "я хотел бы заказать такси": [
+                "i’d like a taxi, please"
             ],
             "извините, сейчас свободных такси нет": [
-                "sorry, there are none available at the moment"
+                "sorry, there are none available at the moment"
             ],
-            "в отеле «бересфорд»": [
-                "at the beresford hotel"
+            "в отеле «бересфорд»": [
+                "at the beresford hotel"
             ],
-            "в аэропорту": [
-                "at the airport"
+            "в аэропорту": [
+                "at the airport"
             ],
-            "на углу хайгейт-роуд и миллфилд-лейн": [
-                "at the corner of highgate road and millfield lane"
+            "на углу хайгейт-роуд и миллфилд-лейн": [
+                "at the corner of highgate road and millfield lane"
             ],
             "назовите свое имя, пожалуйста": [
-                "could i take your name, please?"
+                "could i take your name, please?"
             ],
-            "машина в пути": [
-                "the car is on its way"
+            "машина в пути": [
+                "the car is on its way"
             ],
-            "куда бы вы хотели поехать?": [
-                "where would you like to go?"
+            "куда бы вы хотели поехать?": [
+                "where would you like to go?"
             ],
-            "отвезите меня по этому адресу, пожалуйста": [
-                "take me to this address, please"
+            "отвезите меня по этому адресу, пожалуйста": [
+                "take me to this address, please"
             ],
-            "мне нужно поехать на станцию «чаринг кросс»": [
-                "i need to go to charing cross station"
+            "мне нужно поехать на станцию «чаринг кросс»": [
+                "i need to go to charing cross station"
             ],
-            "не могли бы вы отвезти меня в центр города?": [
-                "could you take me to the city centre?"
+            "не могли бы вы отвезти меня в центр города?": [
+                "could you take me to the city centre?"
             ],
             "сколько это будет стоить?": [
-                "how much will it cost?"
+                "how much will it cost?"
             ],
-            "могли бы мы остановиться у банкомата?": [
-                "could we stop at a cashpoint?"
+            "могли бы мы остановиться у банкомата?": [
+                "could we stop at a cashpoint?"
             ],
-            "я могу открыть окно?": [
-                "may i open the window?"
+            "я могу открыть окно?": [
+                "may i open the window?"
             ],
-            "я могу закрыть окно?": [
-                "may i close the window?"
+            "я могу закрыть окно?": [
+                "may i close the window?"
             ],
-            "сколько я должен?": [
-                "how much is it?"
+            "сколько я должен?": [
+                "how much is it?"
             ],
-            "вы желаете чек?": [
-                "would you like a receipt?"
+            "вы желаете чек?": [
+                "would you like a receipt?"
             ],
-            "могу я получить чек, пожалуйста?": [
-                "could i have a receipt, please?"
+            "могу я получить чек, пожалуйста?": [
+                "could i have a receipt, please?"
             ],
-            "вы могли бы забрать меня отсюда в семь часов?": [
-                "could you pick me up here at seven o’clock?"
+            "вы могли бы забрать меня отсюда в семь часов?": [
+                "could you pick me up here at seven o’clock?"
             ],
-            "вы могли бы подождать меня здесь?": [
-                "could you wait for me here?"
+            "вы могли бы подождать меня здесь?": [
+                "could you wait for me here?"
             ],
             "свободно": [
                 "for hire"
             ],
             "где находится касса?": [
-                "where is the ticket office?"
+                "where is the ticket office?"
             ],
-            "во сколько идет следующий автобус на рочестер?": [
-                "what time is the next bus to rochester?"
+            "во сколько идет следующий автобус на рочестер?": [
+                "what time is the next bus to rochester?"
             ],
-            "во сколько идет следующий поезд на ливерпуль?": [
-                "what time is the next train to liverpool?"
+            "во сколько идет следующий поезд на ливерпуль?": [
+                "what time is the next train to liverpool?"
             ],
-            "можно ли купить билет прямо в автобусе?": [
-                "can i buy a ticket on the bus?"
+            "можно ли купить билет прямо в автобусе?": [
+                "can i buy a ticket on the bus?"
             ],
-            "можно ли купить билет прямо в поезде?": [
-                "can i buy a ticket on the train?"
+            "можно ли купить билет прямо в поезде?": [
+                "can i buy a ticket on the train?"
             ],
-            "сколько стоит билет в один конец до лондона?": [
-                "how much is a single ticket to london?"
+            "сколько стоит билет в один конец до лондона?": [
+                "how much is a single ticket to london?"
             ],
-            "сколько стоит билет в оба конца до манчестера?": [
-                "how much is a return ticket to manchester?"
+            "сколько стоит билет в оба конца до манчестера?": [
+                "how much is a return ticket to manchester?"
             ],
-            "билет в один конец": [
+            "билет в один конец": [
                 "single"
             ],
-            "билет в оба конца": [
+            "билет в оба конца": [
                 "return"
             ],
-            "детский билет в один конец": [
+            "детский билет в один конец": [
                 "child single"
             ],
-            "детский билет в оба конца": [
+            "детский билет в оба конца": [
                 "child return"
             ],
-            "пенсионерский билет в один конец": [
+            "пенсионерский билет в один конец": [
                 "senior citizens’ single"
             ],
-            "пенсионерский билет в оба конца": [
+            "пенсионерский билет в оба конца": [
                 "senior citizens’ return"
             ],
-            "билет первого класса в один конец": [
+            "билет первого класса в один конец": [
                 "first class single"
             ],
-            "билет первого класса в оба конца": [
+            "билет первого класса в оба конца": [
                 "first class return"
             ],
-            "есть ли скидки на билеты не в час-пик?": [
+            "есть ли скидки на билеты не в час-пик?": [
                 "are there reductions for off-peak travel?"
             ],
-            "когда вы хотели бы выехать?": [
-                "when would you like to travel?"
+            "когда вы хотели бы выехать?": [
+                "when would you like to travel?"
             ],
-            "когда бы вы хотели вернуться?": [
-                "when will you be coming back?"
+            "когда бы вы хотели вернуться?": [
+                "when will you be coming back?"
             ],
-            "какая платформа на бирмингем?": [
-                "which platform do i need for birmingham?"
+            "какая платформа на бирмингем?": [
+                "which platform do i need for birmingham?"
             ],
             "это правильная платформа для кардиффа?": [
-                "is this the right platform for cardiff?"
+                "is this the right platform for cardiff?"
             ],
             "где мне нужно сделать пересадку?": [
-                "where should i change trains?"
+                "where should i change trains?"
             ],
-            "вам нужно сделать пересадку в киркби": [
-                "you’ll have to change at kirkby"
+            "вам нужно сделать пересадку в киркби": [
+                "you’ll have to change at kirkby"
             ],
             "это действующее расписание?": [
-                "is this the current timetable?"
+                "is this the current timetable?"
             ],
-            "как часто ходят автобусы на плимут?": [
-                "how often do the buses run to plymouth?"
+            "как часто ходят автобусы на плимут?": [
+                "how often do the buses run to plymouth?"
             ],
-            "как часто ходят поезда на йорк?": [
-                "how often do the trains run to york?"
+            "как часто ходят поезда на йорк?": [
+                "how often do the trains run to york?"
             ],
-            "я хотел бы продлить сезонный билет, пожалуйста": [
-                "i’d like to renew my season ticket, please"
+            "я хотел бы продлить сезонный билет, пожалуйста": [
+                "i’d like to renew my season ticket, please"
             ],
-            "этот автобус останавливается на трафальгарской площади?": [
-                "does this bus stop at trafalgar square?"
+            "этот автобус останавливается на трафальгарской площади?": [
+                "does this bus stop at trafalgar square?"
             ],
-            "этот поезд останавливается в лейчестере?": [
-                "does this train stop at leicester?"
+            "этот поезд останавливается в лейчестере?": [
+                "does this train stop at leicester?"
             ],
-            "скажите мне, пожалуйста, когда мы доедем до университета?": [
-                "could you tell me when we get to the university?"
+            "скажите мне, пожалуйста, когда мы доедем до университета?": [
+                "could you tell me when we get to the university?"
             ],
             "это место свободно?": [
-                "is this seat free?"
+                "is this seat free?"
             ],
-            "не возражаете, если я здесь сяду?": [
-                "do you mind if i sit here?"
+            "не возражаете, если я здесь сяду?": [
+                "do you mind if i sit here?"
             ],
             "билеты, пожалуйста": [
                 "tickets, please"
             ],
             "покажите ваш билет, пожалуйста": [
-                "could i see your ticket, please?"
+                "could i see your ticket, please?"
             ],
-            "я потерял билет": [
-                "i’ve lost my ticket"
+            "я потерял билет": [
+                "i’ve lost my ticket"
             ],
-            "во сколько мы прибываем в шеффилд?": [
-                "what time do we arrive in sheffield?"
+            "во сколько мы прибываем в шеффилд?": [
+                "what time do we arrive in sheffield?"
             ],
-            "я выхожу здесь": [
+            "я выхожу здесь": [
                 "i’m getting off here"
             ],
-            "в поезде есть вагон-ресторан?": [
-                "is there a dining car on the train?"
+            "в поезде есть вагон-ресторан?": [
+                "is there a dining car on the train?"
             ],
-            "вы не возражаете, если я открою окно?": [
-                "do you mind if i open the window?"
+            "вы не возражаете, если я открою окно?": [
+                "do you mind if i open the window?"
             ],
-            "мы прибываем на станцию кингс-кросс": [
-                "we are now approaching london kings cross"
+            "мы прибываем на станцию кингс-кросс": [
+                "we are now approaching london kings cross"
             ],
-            "этот поезд дальше не идет": [
+            "этот поезд дальше не идет": [
                 "this train terminates here"
             ],
-            "не забудьте забрать багаж и все личные вещи": [
+            "не забудьте забрать багаж и все личные вещи": [
                 "please take all your luggage and personal belongings with you"
             ],
             "билеты": [
@@ -2317,11 +2317,11 @@
             "зал ожидания": [
                 "waiting room"
             ],
-            "остановка по требованию": [
+            "остановка по требованию": [
                 "request stop"
             ],
             "вовремя": [
-                "on time"
+                "on time"
             ],
             "прибывает": [
                 "expected"
@@ -2344,11 +2344,11 @@
             "специальные места (для беременных, пожилых, инвалидов)": [
                 "priority seat"
             ],
-            "к поездам": [
-                "to trains"
+            "к поездам": [
+                "to trains"
             ],
-            "поезда на лондон": [
-                "trains to london"
+            "поезда на лондон": [
+                "trains to london"
             ],
             "выход": [
                 "way out"
@@ -2356,90 +2356,90 @@
             "осторожно, щель": [
                 "mind the gap"
             ],
-            "я хотел бы забрать свой билет": [
-                "i’ve come to collect my tickets"
+            "я хотел бы забрать свой билет": [
+                "i’ve come to collect my tickets"
             ],
-            "я заказал билет в интернете": [
-                "i booked on the internet"
+            "я заказал билет в интернете": [
+                "i booked on the internet"
             ],
-            "у вас есть код бронирования?": [
-                "do you have your booking reference?"
+            "у вас есть код бронирования?": [
+                "do you have your booking reference?"
             ],
-            "куда вы летите?": [
-                "where are you flying to?"
+            "куда вы летите?": [
+                "where are you flying to?"
             ],
-            "в вашем багаже есть жидкости или острые предметы?": [
-                "do you have any liquids or sharp objects in your hand baggage?"
+            "в вашем багаже есть жидкости или острые предметы?": [
+                "do you have any liquids or sharp objects in your hand baggage?"
             ],
-            "сколько сумок вы сдаете?": [
-                "how many bags are you checking in?"
+            "сколько сумок вы сдаете?": [
+                "how many bags are you checking in?"
             ],
             "покажите вашу ручную кладь, пожалуйста": [
-                "could i see your hand baggage, please?"
+                "could i see your hand baggage, please?"
             ],
-            "я должен это сдать или могу взять с собой?": [
-                "do i need to check this in or can i take it with me?"
+            "я должен это сдать или могу взять с собой?": [
+                "do i need to check this in or can i take it with me?"
             ],
-            "дополнительная плата за багаж 20 фунтов": [
-                "there’s an excess baggage charge of £20"
+            "дополнительная плата за багаж 20 фунтов": [
+                "there’s an excess baggage charge of £20"
             ],
-            "вы хотите сидеть у окна или в проходе?": [
-                "would you like a window or an aisle seat?"
+            "вы хотите сидеть у окна или в проходе?": [
+                "would you like a window or an aisle seat?"
             ],
             "рейс задерживается": [
                 "the flight has been delayed",
                 "the flight has been delayed"
             ],
-            "у вас есть с собой какие-либо жидкости?": [
+            "у вас есть с собой какие-либо жидкости?": [
                 "are you carrying any liquids?"
             ],
             "снимите пальто/обувь/ремень, пожалуйста": [
                 "could you take off your coat/shoes/belt please?"
             ],
-            "положите металлические предметы на поднос, пожалуйста": [
+            "положите металлические предметы на поднос, пожалуйста": [
                 "could you put any metallic objects into the tray, please?"
             ],
             "освободите карманы, пожалуйста": [
                 "please empty your pockets"
             ],
-            "пожалуйста достаньте ноутбук из сумки": [
-                "please take your laptop out of its case"
+            "пожалуйста достаньте ноутбук из сумки": [
+                "please take your laptop out of its case"
             ],
-            "к сожалению, вы не можете взять это с собой": [
+            "к сожалению, вы не можете взять это с собой": [
                 "i’m afraid you can’t take that through"
             ],
             "какой номер рейса?": [
-                "what is the flight number?"
+                "what is the flight number?"
             ],
-            "какие у нас ворота?": [
-                "which gate do we need?"
+            "какие у нас ворота?": [
+                "which gate do we need?"
             ],
             "рейс отменен": [
                 "the flight has been cancelled"
             ],
-            "мы хотели бы извиниться за задержку": [
-                "we’d like to apologise for the delay"
+            "мы хотели бы извиниться за задержку": [
+                "we’d like to apologise for the delay"
             ],
-            "покажите ваш паспорт и посадочный талон, пожалуйста": [
-                "could i see your passport and boarding card, please?"
+            "покажите ваш паспорт и посадочный талон, пожалуйста": [
+                "could i see your passport and boarding card, please?"
             ],
-            "какой у вас номер места?": [
+            "какой у вас номер места?": [
                 "what’s your seat number?"
             ],
-            "вы могли бы поменяться со мной местами?": [
-                "could i change seats with you?"
+            "вы могли бы поменяться со мной местами?": [
+                "could i change seats with you?"
             ],
-            "пожалуйста, обратите внимание на демонстрацию техники безопасности": [
-                "please pay attention to this short safety demonstration"
+            "пожалуйста, обратите внимание на демонстрацию техники безопасности": [
+                "please pay attention to this short safety demonstration"
             ],
-            "пожалуйста, отключите мобильные телефоны и электронные приборы": [
+            "пожалуйста, отключите мобильные телефоны и электронные приборы": [
                 "please turn off all mobile phones and electronic devices"
             ],
-            "вы желаете еду или напитки?": [
-                "would you like any food or refreshments?"
+            "вы желаете еду или напитки?": [
+                "would you like any food or refreshments?"
             ],
-            "мы приземлимся примерно через 15 минут": [
-                "we’ll be landing in about 15 minutes"
+            "мы приземлимся примерно через 15 минут": [
+                "we’ll be landing in about 15 minutes"
             ],
             "краткосрочная парковка": [
                 "short stay"
@@ -2511,92 +2511,92 @@
             "прибывающие рейсы": [
                 "arrivals board"
             ],
-            "ожидается в 21:35": [
-                "expected 21:35"
+            "ожидается в 21:35": [
+                "expected 21:35"
             ],
-            "приземлился в 12:48": [
-                "landed 12:48"
+            "приземлился в 12:48": [
+                "landed 12:48"
             ],
-            "вы должны заполнить эту форму": [
-                "you have to fill in this form"
+            "вы должны заполнить эту форму": [
+                "you have to fill in this form"
             ],
             "какова цель вашей поездки?": [
-                "what is the purpose of your visit?"
+                "what is the purpose of your visit?"
             ],
-            "я турист": [
-                "i’m a tourist"
+            "я турист": [
+                "i’m a tourist"
             ],
-            "я в отпуске": [
-                "i am on vacation"
+            "я в отпуске": [
+                "i am on vacation"
             ],
-            "я в командировке": [
-                "i am on a business trip"
+            "я в командировке": [
+                "i am on a business trip"
             ],
             "это мой первый приезд": [
-                "this is my first visit"
+                "this is my first visit"
             ],
-            "как долго вы собираетесь здесь пробыть?": [
-                "how long will you be staying here?"
+            "как долго вы собираетесь здесь пробыть?": [
+                "how long will you be staying here?"
             ],
-            "где вы будете жить?": [
-                "where will you be staying?"
+            "где вы будете жить?": [
+                "where will you be staying?"
             ],
-            "я собираюсь пробыть здесь две недели": [
-                "i plan to stay two weeks"
+            "я собираюсь пробыть здесь две недели": [
+                "i plan to stay two weeks"
             ],
-            "у вас есть что-нибудь, подлежащее декларации?": [
-                "do you have anything to declare?"
+            "у вас есть что-нибудь, подлежащее декларации?": [
+                "do you have anything to declare?"
             ],
-            "вы должны уплатить за это пошлину": [
-                "you have to pay duty on these items"
+            "вы должны уплатить за это пошлину": [
+                "you have to pay duty on these items"
             ],
-            "у меня только предметы личного пользования": [
-                "i only have items for personal use"
+            "у меня только предметы личного пользования": [
+                "i only have items for personal use"
             ],
             "граждане ес": [
-                "eu citizens"
+                "eu citizens"
             ],
             "все паспорта": [
                 "all passports"
             ],
-            "ждите за желтой чертой": [
+            "ждите за желтой чертой": [
                 "wait behind the yellow line"
             ],
             "пожалуйста, приготовьте паспорт": [
                 "please have your passport ready"
             ],
-            "во сколько следующий корабль на белфаст?": [
-                "what time is the next boat to belfast?"
+            "во сколько следующий корабль на белфаст?": [
+                "what time is the next boat to belfast?"
             ],
-            "я хотел бы двухместную каюту": [
-                "i’d like a two-berth cabin"
+            "я хотел бы двухместную каюту": [
+                "i’d like a two-berth cabin"
             ],
-            "я хотел бы билет на машину и двух пассажиров": [
-                "i’d like a ticket for a car and two passengers"
+            "я хотел бы билет на машину и двух пассажиров": [
+                "i’d like a ticket for a car and two passengers"
             ],
-            "я хотел бы билет для пассажира": [
-                "i’d like a ticket for a passenger"
+            "я хотел бы билет для пассажира": [
+                "i’d like a ticket for a passenger"
             ],
             "как долго продлится рейс?": [
                 "how long does the crossing take?"
             ],
-            "во сколько паром прибывает в берген?": [
-                "what time does the ferry arrive in bergen?"
+            "во сколько паром прибывает в берген?": [
+                "what time does the ferry arrive in bergen?"
             ],
-            "во сколько отплытие?": [
-                "when does it sail?"
+            "во сколько отплытие?": [
+                "when does it sail?"
             ],
             "когда начинается посадка?": [
-                "what time do we board?"
+                "what time do we board?"
             ],
             "где находится информационный пункт?": [
-                "where is the information desk?"
+                "where is the information desk?"
             ],
             "где каюта номер 235?": [
-                "where is cabin number 235?"
+                "where is cabin number 235?"
             ],
-            "на какой палубе находится бар?": [
-                "which deck is the bar on?"
+            "на какой палубе находится бар?": [
+                "which deck is the bar on?"
             ],
             "каюты": [
                 "cabins"
